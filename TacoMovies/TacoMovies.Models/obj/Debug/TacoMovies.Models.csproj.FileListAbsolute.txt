@@ -1,0 +1,5 @@
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb

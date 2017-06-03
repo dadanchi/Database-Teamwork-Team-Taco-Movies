@@ -1,0 +1,12 @@
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.exe.config
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.exe
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.csprojResolveAssemblyReference.cache
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.exe
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Models.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Models.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.xml
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
