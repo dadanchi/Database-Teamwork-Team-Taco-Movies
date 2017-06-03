@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Models", "TacoMovies.Models\TacoMovies.Models.csproj", "{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Data", "TacoMovies.Data\TacoMovies.Data.csproj", "{41539A34-E313-4F93-AB72-1357469FD54D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41539A34-E313-4F93-AB72-1357469FD54D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41539A34-E313-4F93-AB72-1357469FD54D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41539A34-E313-4F93-AB72-1357469FD54D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41539A34-E313-4F93-AB72-1357469FD54D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
