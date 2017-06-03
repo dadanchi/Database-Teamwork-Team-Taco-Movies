@@ -10,3 +10,9 @@ H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovie
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.xml
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\JSONParser.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Data.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\JSONParser.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Data.pdb

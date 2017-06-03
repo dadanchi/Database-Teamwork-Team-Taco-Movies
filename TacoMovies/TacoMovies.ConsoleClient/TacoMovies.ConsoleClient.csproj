@@ -60,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JSONParser\TacoMovies.JSONParser.csproj">
+      <Project>{568E8E82-121E-4ED3-A52C-3BE58303EDFA}</Project>
+      <Name>TacoMovies.JSONParser</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TacoMovies.Models\TacoMovies.Models.csproj">
       <Project>{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}</Project>
       <Name>TacoMovies.Models</Name>
