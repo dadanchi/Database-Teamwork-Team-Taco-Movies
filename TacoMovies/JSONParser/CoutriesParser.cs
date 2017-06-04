@@ -12,7 +12,6 @@ namespace TacoMovies.JSONParser
 {
     public static class CountriesParser
     {
-
         public static void Parse()
         {
             var json = File.ReadAllText("../../../ExternalData/Countries.json");
@@ -25,12 +24,13 @@ namespace TacoMovies.JSONParser
 
             foreach (var jObj in jArray)
             {
-                var movie = new Movie
+                Console.WriteLine(jObj["name"]["common"]);
+                var country = new Country
                 {
                     Name = (string)jObj["name"]["common"]
                     
                 };
-                dbContext.Movies.Add(movie);
+                dbContext.Countries.Add(country);
             }
 
             dbContext.SaveChanges();

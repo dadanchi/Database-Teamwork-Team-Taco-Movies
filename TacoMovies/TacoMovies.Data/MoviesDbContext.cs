@@ -24,5 +24,7 @@ namespace TacoMovies.Data
 
         public virtual IDbSet<Award> Awards { get; set; }
 
+        public virtual IDbSet<Country> Countries { get; set; }
+
     }
 }

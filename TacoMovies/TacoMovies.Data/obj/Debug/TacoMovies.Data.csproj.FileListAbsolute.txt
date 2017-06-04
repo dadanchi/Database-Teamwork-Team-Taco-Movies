@@ -10,3 +10,17 @@ H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovie
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.pdb
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Models.dll
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.dll.config
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.dll
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.pdb
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Models.dll
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.dll
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.pdb
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.Initial.resources
+C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
