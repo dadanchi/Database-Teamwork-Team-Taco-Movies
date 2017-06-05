@@ -17,7 +17,7 @@ namespace TacoMovies.Models
 
         public string Name { get; set; }
 
-        public int Rating { get; set; }
+        public float Rating { get; set; }
 
         public DateTime PublishDate { get; set; }
 
@@ -25,7 +25,7 @@ namespace TacoMovies.Models
 
         public virtual Artist Director { get; set; }
 
-        public virtual Country Coutry { get; set; }
+        public virtual int Coutry { get; set; }
 
         public virtual ICollection<Artist> Actors
         {

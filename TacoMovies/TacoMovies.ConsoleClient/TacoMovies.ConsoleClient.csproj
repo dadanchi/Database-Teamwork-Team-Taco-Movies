@@ -64,6 +64,10 @@
       <Project>{568E8E82-121E-4ED3-A52C-3BE58303EDFA}</Project>
       <Name>TacoMovies.JSONParser</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TacoMovies.Data\TacoMovies.Data.csproj">
+      <Project>{41539A34-E313-4F93-AB72-1357469FD54D}</Project>
+      <Name>TacoMovies.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TacoMovies.Models\TacoMovies.Models.csproj">
       <Project>{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}</Project>
       <Name>TacoMovies.Models</Name>

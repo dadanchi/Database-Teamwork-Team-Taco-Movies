@@ -1,0 +1,83 @@
+{
+    "artists": [
+        {
+            "FirstName": "Denzel",
+            "LastName": "Washington",
+            "DateOfBirth": "28/12/1954",
+            "Country": "USA",
+            "Profession": "Actor",
+            "Awards" : [""],
+            "Movies" : ["The Equalizer"]
+        },
+
+        {
+            "FirstName": "Antoine",
+            "LastName": "Fuqua",
+            "DateOfBirth": "19/1/1966",
+            "Country": "USA",
+            "Profession": "Director",
+            "Awards" : [""],
+            "Movies" : ["The Equalizer"]
+        },
+
+        {
+            "FirstName": "Marton",
+            "LastName": "Csokas",
+            "DateOfBirth": "30/6/1966",
+            "Country": "New Zealand",
+            "Profession": "Actor",
+            "Awards" : [""],
+            "Movies" : ["The Equalizer"]
+        },
+
+        {
+            "FirstName": "Chloë",
+            "LastName": "Moretz",
+            "DateOfBirth": "10/2/1997",
+            "Country": "USA",
+            "Profession": "Actress",
+            "Awards" : [""],
+            "Movies" : ["The Equalizer"]
+        },
+
+        {
+            "FirstName": "George",
+            "LastName": "Miller",
+            "DateOfBirth": "3/3/1945",
+            "Country": "Australia",
+            "Profession": "Director",
+            "Awards" : [""],
+            "Movies" : [""]
+        },
+
+        {
+            "FirstName": "Tom",
+            "LastName": "Hardy",
+            "DateOfBirth": "15/9/1977",
+            "Country": "UK",
+            "Profession": "Actor",
+            "Awards" : [""],
+            "Movies" : [""]
+        },
+
+        {
+            "FirstName": "Charlize",
+            "LastName": "Theron",
+            "DateOfBirth": "7/8/1975",
+            "Country": "South Africa",
+            "Profession": "Actress",
+            "Awards" : [""],
+            "Movies" : [""]
+        },
+
+        {
+            "FirstName": "Nicholas",
+            "LastName": "Hoult",
+            "DateOfBirth": "7/12/1989",
+            "Country": "UK",
+            "Profession": "Actor",
+            "Awards" : [""],
+            "Movies" : [""]
+        }
+    ]
+}

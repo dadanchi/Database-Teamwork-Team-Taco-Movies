@@ -31,10 +31,10 @@ namespace TacoMovies.JSONParser
                     
                 };
                 dbContext.Countries.Add(country);
+                
             }
 
             dbContext.SaveChanges();
-
 
         }
     }

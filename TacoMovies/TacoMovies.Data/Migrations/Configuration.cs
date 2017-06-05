@@ -9,7 +9,9 @@ namespace TacoMovies.Data.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            this.AutomaticMigrationsEnabled = false;
+            //this.ContextKey = "TacoMovies.Data.MoviesDbContext";
+
         }
 
         protected override void Seed(TacoMovies.Data.MoviesDbContext context)

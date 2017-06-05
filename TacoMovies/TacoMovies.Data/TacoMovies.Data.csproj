@@ -53,6 +53,14 @@
     <Compile Include="Migrations\201706041012392_Initial.Designer.cs">
       <DependentUpon>201706041012392_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706051941039_change int to float in Movies class Rating prop.cs" />
+    <Compile Include="Migrations\201706051941039_change int to float in Movies class Rating prop.Designer.cs">
+      <DependentUpon>201706051941039_change int to float in Movies class Rating prop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706052056150_CoutryToIntInMovieClas.cs" />
+    <Compile Include="Migrations\201706052056150_CoutryToIntInMovieClas.Designer.cs">
+      <DependentUpon>201706052056150_CoutryToIntInMovieClas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MoviesDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +78,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201706041012392_Initial.resx">
       <DependentUpon>201706041012392_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706051941039_change int to float in Movies class Rating prop.resx">
+      <DependentUpon>201706051941039_change int to float in Movies class Rating prop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706052056150_CoutryToIntInMovieClas.resx">
+      <DependentUpon>201706052056150_CoutryToIntInMovieClas.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -3,6 +3,7 @@
     public enum Profession
     {
         Actor = 0,
-        Director = 1
+        Actress = 1,
+        Director = 2,
     }
 }
