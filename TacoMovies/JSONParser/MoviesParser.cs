@@ -11,19 +11,28 @@ using TacoMovies.Models;
 
 namespace JSONParser
 {
-    public class MovieParser 
+    public class MovieParser
     {
-       public static void Parse()
+        private readonly MoviesDbContext dbContext;
+
+        public MovieParser(MoviesDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
+
+        public void Parse()
         {
             var json = File.ReadAllText("../../../ExternalData/movies.json");
 
             var jArray = JArray.Parse(json);
 
-            var dbContext = new MoviesDbContext();
-
             foreach (var jObj in jArray)
             {
-                
+                var currentCountryName = jObj["Country"].ToString();
+
+                var currentCountryId = FindCurrentCountryId(currentCountryName);
+
+
                 var movie = new Movie
 
                 {
@@ -31,22 +40,26 @@ namespace JSONParser
                     Rating = (float)jObj["Rating"],
                     PublishDate = (DateTime.Parse((string)jObj["PublishDate"], new CultureInfo("en-CA"))),
                     Length = (int)jObj["Length"],
+                    Coutry = currentCountryId
                 };
 
-                dbContext.Movies.Add(movie);
+                this.dbContext.Movies.Add(movie);
             }
 
-            dbContext.SaveChanges();
+            this.dbContext.SaveChanges();
 
         }
 
-        // Potencial logic for retrievin country id (not working because of incompatibility between newtonsof en LINQ)
+        private int FindCurrentCountryId(string currentCountryName)
+        {
 
-        //private int FindCurrentCountryId()
-        //{
-        //    var cueerntCountry = dbContext.Countries
-        //                .FirstOrDefault(c => c.Name == jObj["name"]["common"].ToString());
-        //    var currentCountryId = cueerntCountry.Id;
-        //}
+            var currentCountry = this.dbContext.Countries
+                     .Where(c => c.Name == currentCountryName)
+                     .FirstOrDefault();
+
+            var currentCountryId = currentCountry.Id;
+
+            return currentCountryId;
+        }
     }
 }

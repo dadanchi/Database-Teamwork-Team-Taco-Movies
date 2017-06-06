@@ -16,9 +16,11 @@ namespace TacoMovies.ConsoleClient
     {
         static void Main(string[] args)
         {
+            var dbContext = new MoviesDbContext();
             //CountriesParser.Parse();
 
-            MovieParser.Parse();
+            var movieParser = new MovieParser(dbContext);
+            movieParser.Parse();
             
         }
     }
