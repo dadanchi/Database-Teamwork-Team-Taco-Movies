@@ -30,3 +30,19 @@ C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONPar
 C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\TacoMovies.JSONParser.csprojResolveAssemblyReference.cache
 C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.dll
 C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.pdb
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\TacoMovies.JSONParser.csprojResolveAssemblyReference.cache
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.dll
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.pdb
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.dll.config
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.dll
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.pdb
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.dll
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Data.dll
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Models.dll
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Data.pdb
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.xml
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\Newtonsoft.Json.xml

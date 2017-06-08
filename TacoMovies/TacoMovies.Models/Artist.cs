@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using TacoMovies.Models.Enums;
 
 namespace TacoMovies.Models
@@ -17,14 +18,21 @@ namespace TacoMovies.Models
 
         public int Id { get; set; }
 
+        [Required]
+        [MaxLength(40)]
         public string FirstName { get; set; }
 
+        [Required]
+        [MaxLength(40)]
         public string LastName { get; set; }
 
+        [Required]
         public DateTime DateOfBirth { get; set; }
 
         public virtual Country Country { get; set; }
 
+        [Required]
+        [Range(0, 1)]
         public virtual Profession Profession { get; set; }
 
         public virtual ICollection<Award> Awards

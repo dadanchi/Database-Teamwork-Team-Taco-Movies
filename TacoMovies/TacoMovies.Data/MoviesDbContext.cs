@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Data.Entity.Infrastructure.Annotations;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using TacoMovies.Models;
 
 namespace TacoMovies.Data
@@ -25,6 +23,97 @@ namespace TacoMovies.Data
         public virtual IDbSet<Award> Awards { get; set; }
 
         public virtual IDbSet<Country> Countries { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+
+            this.OnMovieModelCreating(modelBuilder);
+            this.OnUserModelCreating(modelBuilder);
+            this.OnGenreModelCreating(modelBuilder);
+            this.OnCountryModelCreating(modelBuilder);
+
+            base.OnModelCreating(modelBuilder);
+        }
+
+        private void OnCountryModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Country>()
+                .Property(x => x.Name)
+                .IsRequired()
+                .HasMaxLength(40)
+                .HasColumnAnnotation(
+                    "Index",
+                    new IndexAnnotation(
+                        new IndexAttribute("IX_Name")
+                        {
+                            IsUnique = true
+                        }));
+        }
+
+        private void OnGenreModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Genre>()
+                .Property(x => x.Name)
+                .IsRequired()
+                .HasMaxLength(40)
+                .HasColumnAnnotation(
+                    "Index",
+                    new IndexAnnotation(
+                        new IndexAttribute("IX_Name")
+                        {
+                            IsUnique = true
+                        }));
+        }
+
+        private void OnMovieModelCreating(DbModelBuilder dbModelBuilder)
+        {
+            dbModelBuilder.Entity<Movie>()
+                .Property(x => x.Name)
+                .IsRequired()
+                .HasMaxLength(40)
+                .HasColumnAnnotation(
+                    "Index",
+                    new IndexAnnotation(
+                        new IndexAttribute("IX_Name")
+                        {
+                            IsUnique = true
+                        }));
+
+            dbModelBuilder.Entity<Movie>()
+                .Property(x => x.Rating)
+                .IsOptional();
+        }
+
+        private void OnUserModelCreating(DbModelBuilder dbModelBuilder)
+        {
+            dbModelBuilder.Entity<User>()
+                .Property(x => x.Username)
+                .IsRequired()
+                .HasMaxLength(40)
+                .HasColumnAnnotation(
+                    "Index",
+                    new IndexAnnotation(
+                        new IndexAttribute("IX_Username")
+                        {
+                            IsUnique = true
+                        }));
+
+            dbModelBuilder.Entity<User>()
+                .Property(x => x.FirstName)
+                .IsRequired()
+                .HasMaxLength(40);
+
+            dbModelBuilder.Entity<User>()
+                .Property(x => x.LastName)
+                .IsRequired()
+                .HasMaxLength(40);
+
+            dbModelBuilder.Entity<User>()
+                .Property(x => x.Password)
+                .IsRequired();
+        }
 
     }
 }

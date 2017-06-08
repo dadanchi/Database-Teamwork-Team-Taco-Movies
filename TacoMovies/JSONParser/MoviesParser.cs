@@ -30,7 +30,7 @@ namespace JSONParser
             {
                 var currentCountryName = jObj["Country"].ToString();
 
-                var currentCountryId = FindCurrentCountryId(currentCountryName);
+                var currentCountry = FindCurrentCountryId(currentCountryName);
 
 
                 var movie = new Movie
@@ -40,26 +40,25 @@ namespace JSONParser
                     Rating = (float)jObj["Rating"],
                     PublishDate = (DateTime.Parse((string)jObj["PublishDate"], new CultureInfo("en-CA"))),
                     Length = (int)jObj["Length"],
-                    Coutry = currentCountryId
+                    Coutry = currentCountry
                 };
-
+                Console.WriteLine(movie);
                 this.dbContext.Movies.Add(movie);
+
             }
 
             this.dbContext.SaveChanges();
 
         }
 
-        private int FindCurrentCountryId(string currentCountryName)
+        private Country FindCurrentCountryId(string currentCountryName)
         {
 
             var currentCountry = this.dbContext.Countries
                      .Where(c => c.Name == currentCountryName)
                      .FirstOrDefault();
-
-            var currentCountryId = currentCountry.Id;
-
-            return currentCountryId;
+        
+            return currentCountry;
         }
     }
 }

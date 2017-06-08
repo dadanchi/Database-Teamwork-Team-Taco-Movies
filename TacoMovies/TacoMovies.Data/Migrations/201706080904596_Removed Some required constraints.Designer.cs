@@ -7,13 +7,13 @@ namespace TacoMovies.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class CoutryToIntInMovieClas : IMigrationMetadata
+    public sealed partial class RemovedSomerequiredconstraints : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CoutryToIntInMovieClas));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(RemovedSomerequiredconstraints));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706052056150_CoutryToIntInMovieClas"; }
+            get { return "201706080904596_Removed Some required constraints"; }
         }
         
         string IMigrationMetadata.Source

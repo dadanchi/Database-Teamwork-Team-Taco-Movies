@@ -7,13 +7,13 @@ namespace TacoMovies.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class changeinttofloatinMoviesclassRatingprop : IMigrationMetadata
+    public sealed partial class Initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(changeinttofloatinMoviesclassRatingprop));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706051941039_change int to float in Movies class Rating prop"; }
+            get { return "201706071647252_Initial"; }
         }
         
         string IMigrationMetadata.Source

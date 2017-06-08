@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text;
 
 namespace TacoMovies.Models
 {
@@ -23,10 +26,15 @@ namespace TacoMovies.Models
 
         public int Length { get; set; }
 
+        [ForeignKey("DirectorId")]
+        [Required]
         public virtual Artist Director { get; set; }
+        public int? DirectorId { get; set; }
 
-        public virtual int Coutry { get; set; }
+        [Required]
+        public virtual Country Coutry { get; set; }
 
+        [Required]
         public virtual ICollection<Artist> Actors
         {
             get
@@ -40,17 +48,29 @@ namespace TacoMovies.Models
             }
         }
 
+        [Required]
         public virtual ICollection<Genre> Genres
         {
             get
             {
                 return this.genres;
             }
-
             set
             {
                 this.genres = value;
             }
+        }
+
+        public override string ToString()
+        {
+            var builder = new StringBuilder();
+            builder.AppendLine(this.Name);
+            builder.AppendLine(this.Rating.ToString());
+            builder.AppendLine(this.PublishDate.ToString());
+            builder.AppendLine(this.Length.ToString());
+
+            return builder.ToString();
+
         }
     }
 }
