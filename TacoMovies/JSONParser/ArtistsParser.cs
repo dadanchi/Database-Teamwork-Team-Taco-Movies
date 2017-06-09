@@ -13,10 +13,12 @@ namespace JSONParser
     public class ArtistsParser
     {
         private readonly MoviesDbContext dbContext;
+        private readonly Utils utils;
 
-        public ArtistsParser(MoviesDbContext dbContext)
+        public ArtistsParser(MoviesDbContext dbContext, Utils utils)
         {
             this.dbContext = dbContext;
+            this.utils = utils;
         }
         public void Parse()
         {
@@ -27,7 +29,7 @@ namespace JSONParser
             foreach (var jObj in jArray)
             {
                 var currentCountryName = jObj["Country"].ToString();
-                var currentCountry = FindCurrentCountry(currentCountryName);
+                var currentCountry = this.utils.FindCurrentCountry(currentCountryName);
                 var professionToString = jObj["Profession"].ToString();
 
                 var artist = new Artist
@@ -39,20 +41,20 @@ namespace JSONParser
                     Country = currentCountry,
                 };
 
+                var awards = jObj["Awards"];
+                foreach (var award in awards)
+                {
+                    if (!string.IsNullOrEmpty(award.ToString()))
+                    {
+                        var newAward = this.utils.FindCurrentAward(award.ToString());
+                        artist.Awards.Add(newAward);
+                    }
+                }
+
                 this.dbContext.Artists.AddOrUpdate(c => new { c.FirstName, c.LastName }, artist);
             }
 
             this.dbContext.SaveChanges();
-
-        }
-
-        private Country FindCurrentCountry(string currentCountryName)
-        {
-            var currentCountry = this.dbContext.Countries
-                     .Where(c => c.Name == currentCountryName)
-                     .FirstOrDefault();
-
-            return currentCountry;
         }
     }
 }

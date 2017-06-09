@@ -385,5 +385,19 @@
         "Awards": [
             ""
         ]
+    },
+        {
+        "FirstName": "Goshko",
+        "LastName": "Washington",
+        "DateOfBirth": "12/28/1954",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            "Golden Globe : Best Actor",
+            "Tony Award : Best Actor",
+            "Academy : Best Supporting Actor",
+            "Academy : Best Actor"
+        ]
+
     }   
 ]

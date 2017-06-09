@@ -57,6 +57,7 @@
     <Compile Include="CoutriesParser.cs" />
     <Compile Include="MoviesParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

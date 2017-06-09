@@ -1,18 +1,20 @@
-﻿using JSONParser;
-using System;
-using System.Linq;
-using TacoMovies.Data;
+﻿using TacoMovies.Data;
 using TacoMovies.JSONParser;
 
-namespace TacoMovies.ConsoleClient
+namespace JSONParser
 {
-    public class Startup
+    public class MasterParser
     {
-        public static void Main(string[] args)
+        private readonly MoviesDbContext dbContext;
+        private readonly Utils utils;
+        public MasterParser(MoviesDbContext dbContext)
         {
-            var dbContext = new MoviesDbContext();
-            var utils = new Utils(dbContext);
+            this.dbContext = dbContext;
+            this.utils = new Utils(this.dbContext);
+        }
 
+        public void Parse()
+        {
             var countryPasrser = new CountriesParser(dbContext);
             countryPasrser.Parse();
 
@@ -21,7 +23,6 @@ namespace TacoMovies.ConsoleClient
 
             var movieParser = new MovieParser(dbContext, utils);
             movieParser.Parse();
-
         }
     }
 }

@@ -26,7 +26,7 @@ namespace TacoMovies.Models
         [MaxLength(40)]
         public string LastName { get; set; }
 
-        public DateTime DateOfBirth { get; set; }
+        public DateTime? DateOfBirth { get; set; }
 
         public virtual Country Country { get; set; }
 
