@@ -9,10 +9,12 @@ namespace TacoMovies.Models
     public class Movie
     {
         private ICollection<Artist> actors;
+        private ICollection<User> users;
 
         public Movie()
         {
             this.actors = new HashSet<Artist>();
+            this.users = new HashSet<User>();
         }
         public int Id { get; set; }
 
@@ -49,6 +51,19 @@ namespace TacoMovies.Models
         [Required]
         public virtual Genre Genre { get; set; }
 
+        public virtual ICollection<User> Users
+        {
+            get
+            {
+                return this.users;
+            }
+
+            set
+            {
+                this.users = value;
+            }
+        }
+
         public override string ToString()
         {
             var builder = new StringBuilder();
@@ -58,7 +73,6 @@ namespace TacoMovies.Models
             builder.AppendLine(this.Length.ToString());
 
             return builder.ToString();
-
         }
     }
 }

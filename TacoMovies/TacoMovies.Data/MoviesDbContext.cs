@@ -104,7 +104,6 @@ namespace TacoMovies.Data
             dbModelBuilder.Entity<User>()
                 .Property(x => x.Username)
                 .IsRequired()
-                .HasMaxLength(40)
                 .HasColumnAnnotation(
                     "Index",
                     new IndexAnnotation(
@@ -126,7 +125,10 @@ namespace TacoMovies.Data
             dbModelBuilder.Entity<User>()
                 .Property(x => x.Password)
                 .IsRequired();
-        }
 
+            dbModelBuilder.Entity<User>()
+                .HasMany<Movie>(x => x.Movies)
+                .WithMany(x => x.Users);
+        }
     }
 }

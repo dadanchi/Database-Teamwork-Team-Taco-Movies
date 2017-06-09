@@ -49,8 +49,6 @@ namespace JSONParser
                     FirstName = firstName,
                     LastName = lastName,
                     Profession = profession,
-                    // TODO - ask marto
-                    //DateOfBirth = new DateTime(2000, 1, 1)
                 };
 
                 dbContext.Artists.Add(newArtist);

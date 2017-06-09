@@ -43,3 +43,6 @@ H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovie
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.changegenres.resources
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.manytomanyactorsmovies.resources
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.passwordmaxsymbols.resources
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.manytomanyusersmovies.resources
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.passwordlengthandvarcharonit.resources

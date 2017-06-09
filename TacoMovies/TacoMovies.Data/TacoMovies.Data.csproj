@@ -61,6 +61,18 @@
     <Compile Include="Migrations\201706091317465_many to many actors movies.Designer.cs">
       <DependentUpon>201706091317465_many to many actors movies.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706091434497_password max symbols.cs" />
+    <Compile Include="Migrations\201706091434497_password max symbols.Designer.cs">
+      <DependentUpon>201706091434497_password max symbols.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706091447190_many to many users movies.cs" />
+    <Compile Include="Migrations\201706091447190_many to many users movies.Designer.cs">
+      <DependentUpon>201706091447190_many to many users movies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706091454580_password length and varchar on it.cs" />
+    <Compile Include="Migrations\201706091454580_password length and varchar on it.Designer.cs">
+      <DependentUpon>201706091454580_password length and varchar on it.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MoviesDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,6 +96,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706091317465_many to many actors movies.resx">
       <DependentUpon>201706091317465_many to many actors movies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706091434497_password max symbols.resx">
+      <DependentUpon>201706091434497_password max symbols.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706091447190_many to many users movies.resx">
+      <DependentUpon>201706091447190_many to many users movies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706091454580_password length and varchar on it.resx">
+      <DependentUpon>201706091454580_password length and varchar on it.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
