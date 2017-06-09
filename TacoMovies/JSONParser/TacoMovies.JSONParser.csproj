@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArtistsParser.cs" />
     <Compile Include="CoutriesParser.cs" />
     <Compile Include="MoviesParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

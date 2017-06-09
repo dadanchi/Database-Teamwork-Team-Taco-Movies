@@ -26,8 +26,6 @@ C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMov
 C:\Users\Dell\Desktop\Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.Initial.resources
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
-H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.changeinttofloatinMoviesclassRatingprop.resources
-H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.CoutryToIntInMovieClas.resources
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.dll.config
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.dll
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.pdb
@@ -43,3 +41,4 @@ C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\Ta
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.Initial.resources
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.RemovedSomerequiredconstraints.resources
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.RemovedSomerequiredconstraints.resources

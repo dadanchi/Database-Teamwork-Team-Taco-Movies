@@ -1,83 +1,389 @@
-{
-    "artists": [
-        {
-            "FirstName": "Denzel",
-            "LastName": "Washington",
-            "DateOfBirth": "28/12/1954",
-            "Country": "USA",
-            "Profession": "Actor",
-            "Awards" : [""],
-            "Movies" : ["The Equalizer"]
-        },
+[
+    {
+        "FirstName": "Testov",
+        "LastName": "Nqkoi",
+        "DateOfBirth": "10/10/1999",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            "Golden Globe : Best Actor",
+            "Tony Award : Best Actor",
+            "Academy : Best Supporting Actor",
+            "Academy : Best Actor"
+        ]
+    },
+    {
+        "FirstName": "Denzel",
+        "LastName": "Washington",
+        "DateOfBirth": "12/28/1954",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            "Golden Globe : Best Actor",
+            "Tony Award : Best Actor",
+            "Academy : Best Supporting Actor",
+            "Academy : Best Actor"
+        ]
 
-        {
-            "FirstName": "Antoine",
-            "LastName": "Fuqua",
-            "DateOfBirth": "19/1/1966",
-            "Country": "USA",
-            "Profession": "Director",
-            "Awards" : [""],
-            "Movies" : ["The Equalizer"]
-        },
-
-        {
-            "FirstName": "Marton",
-            "LastName": "Csokas",
-            "DateOfBirth": "30/6/1966",
-            "Country": "New Zealand",
-            "Profession": "Actor",
-            "Awards" : [""],
-            "Movies" : ["The Equalizer"]
-        },
-
-        {
-            "FirstName": "Chloë",
-            "LastName": "Moretz",
-            "DateOfBirth": "10/2/1997",
-            "Country": "USA",
-            "Profession": "Actress",
-            "Awards" : [""],
-            "Movies" : ["The Equalizer"]
-        },
-
-        {
-            "FirstName": "George",
-            "LastName": "Miller",
-            "DateOfBirth": "3/3/1945",
-            "Country": "Australia",
-            "Profession": "Director",
-            "Awards" : [""],
-            "Movies" : [""]
-        },
-
-        {
-            "FirstName": "Tom",
-            "LastName": "Hardy",
-            "DateOfBirth": "15/9/1977",
-            "Country": "UK",
-            "Profession": "Actor",
-            "Awards" : [""],
-            "Movies" : [""]
-        },
-
-        {
-            "FirstName": "Charlize",
-            "LastName": "Theron",
-            "DateOfBirth": "7/8/1975",
-            "Country": "South Africa",
-            "Profession": "Actress",
-            "Awards" : [""],
-            "Movies" : [""]
-        },
-
-        {
-            "FirstName": "Nicholas",
-            "LastName": "Hoult",
-            "DateOfBirth": "7/12/1989",
-            "Country": "UK",
-            "Profession": "Actor",
-            "Awards" : [""],
-            "Movies" : [""]
-        }
-    ]
-}
+    },
+    {
+        "FirstName": "Antoine",
+        "LastName": "Fuqua",
+        "DateOfBirth": "1/19/1966",
+        "Country": "United States",
+        "Profession": "Director",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Marton",
+        "LastName": "Csokas",
+        "DateOfBirth": "6/30/1966",
+        "Country": "New Zealand",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Chloë",
+        "LastName": "Moretz",
+        "DateOfBirth": "2/10/1997",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [""]
+    },
+    {
+        "FirstName": "George",
+        "LastName": "Miller",
+        "DateOfBirth": "3/3/1945",
+        "Country": "Australia",
+        "Profession": "Director",
+        "Awards": [
+            "Academy : Best Animated Feature"
+        ]
+    },
+    {
+        "FirstName": "Tom",
+        "LastName": "Hardy",
+        "DateOfBirth": "9/15/1977",
+        "Country": "United Kingdom",
+        "Profession": "Actor",
+        "Awards": [
+            "British Independent Film Award : Best Actor"
+        ]
+    },
+    {
+        "FirstName": "Charlize",
+        "LastName": "Theron",
+        "DateOfBirth": "8/7/1975",
+        "Country": "South Africa",
+        "Profession": "Actor",
+        "Awards": [
+            "Oscar  : Best Actor"
+        ]
+    },
+    {
+        "FirstName": "Nicholas",
+        "LastName": "Hoult",
+        "DateOfBirth": "12/7/1989",
+        "Country": "United Kingdom",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "James",
+        "LastName": "Mangold",
+        "DateOfBirth": "12/16/1963",
+        "Country": "United States",
+        "Profession": "Director",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Hugh",
+        "LastName": "Jackman",
+        "DateOfBirth": "10/12/1968",
+        "Country": "Australia",
+        "Profession": "Actor",
+        "Awards": [
+            "Golden Globe : Best Actor"
+        ]
+    },
+    {
+        "FirstName": "Patrick",
+        "LastName": "Stewart",
+        "DateOfBirth": "7/13/1940",
+        "Country": "United Kingdom",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Gareth",
+        "LastName": "Edwards",
+        "DateOfBirth": "6/1/1975",
+        "Country": "United Kingdom",
+        "Profession": "Director",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Felicity",
+        "LastName": "Jones",
+        "DateOfBirth": "10/10/1983",
+        "Country": "United Kingdom",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Diego",
+        "LastName": "Luna",
+        "DateOfBirth": "12/29/1979",
+        "Country": "Mexico",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Alan",
+        "LastName": "Tudyk",
+        "DateOfBirth": "3/16/1971",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Patty",
+        "LastName": "Jenkins",
+        "DateOfBirth": "7/24/1971",
+        "Country": "United States",
+        "Profession": "Director",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Gal",
+        "LastName": "Gadot",
+        "DateOfBirth": "4/30/1985",
+        "Country": "Israel",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Chris",
+        "LastName": "Pine",
+        "DateOfBirth": "8/26/1980",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ],
+        "Movies": [{
+                "Name": "Wonder Woman",
+                "Rating": "8.3",
+                "PublishDate": "07/02/2017",
+                "Length": "141",
+                "Country": "United States"
+            }
+        ]
+    },
+    {
+        "FirstName": "Robin",
+        "LastName": "Wright",
+        "DateOfBirth": "4/8/1966",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Alejandro González",
+        "LastName": "Iñárritu",
+        "DateOfBirth": "8/15/1963",
+        "Country": "Mexico",
+        "Profession": "Director",
+        "Awards": [
+            "BAFTA : Best Director",
+            "Golden Globe : Best Director",
+            "Oscar : Best Director"
+        ]
+    },
+    {
+        "FirstName": "Leonardo",
+        "LastName": "DiCaprio",
+        "DateOfBirth": "11/11/1974",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            "BAFTA : Best Actor",
+            "Golden Globe : Best Actor",
+            "Oscar : Best Actor"
+        ]
+    },
+    {
+        "FirstName": "Will",
+        "LastName": "Poulter",
+        "DateOfBirth": "1/28/1993",
+        "Country": "United Kingdom",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Tim",
+        "LastName": "Miller",
+        "DateOfBirth": "2/27/1970",
+        "Country": "United States",
+        "Profession": "Director",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Ryan",
+        "LastName": "Reynolds",
+        "DateOfBirth": "10/23/1976",
+        "Country": "Canada",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Morena",
+        "LastName": "Baccarin",
+        "DateOfBirth": "6/2/1979",
+        "Country": "Brazil",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "T.J.",
+        "LastName": "Miller",
+        "DateOfBirth": "6/4/1981",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Christopher",
+        "LastName": "Nolan",
+        "DateOfBirth": "7/30/1970",
+        "Country": "United Kingdom",
+        "Profession": "Director",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Joseph",
+        "LastName": "Gordon-Levitt",
+        "DateOfBirth": "2/17/1981",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Ellen",
+        "LastName": "Page",
+        "DateOfBirth": "2/21/1987",
+        "Country": "Canada",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Ridley",
+        "LastName": "Scott",
+        "DateOfBirth": "11/30/1937",
+        "Country": "United Kingdom",
+        "Profession": "Director",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Michael",
+        "LastName": "Fassbender",
+        "DateOfBirth": "4/2/1977",
+        "Country": "Germany",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Katherine",
+        "LastName": "Waterston",
+        "DateOfBirth": "3/3/1980",
+        "Country": "United Kingdom",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Billy",
+        "LastName": "Crudup",
+        "DateOfBirth": "7/8/1968",
+        "Country": "United States",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Nekyv",
+        "LastName": "Proben",
+        "DateOfBirth": "5/5/2000",
+        "Country": "Mongolia",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Oshte",
+        "LastName": "Edin",
+        "DateOfBirth": "5/5/1980",
+        "Country": "Mongolia",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    },
+    {
+        "FirstName": "Ken",
+        "LastName": "Watanable",
+        "DateOfBirth": "10/21/1959",
+        "Country": "Japan",
+        "Profession": "Actor",
+        "Awards": [
+            ""
+        ]
+    }   
+]
