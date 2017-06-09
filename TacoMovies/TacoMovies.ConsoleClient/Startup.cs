@@ -16,7 +16,8 @@ namespace TacoMovies.ConsoleClient
             var dbContext = new MoviesDbContext();
 
             //var parser = new MasterParser(dbContext);
-            //parser.Parse();
+            //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
+            //"../../../ExternalData/movies.json");
 
             //var user = new User()
             //{

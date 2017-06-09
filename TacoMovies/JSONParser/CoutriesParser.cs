@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json.Linq;
-using System;
 using System.IO;
+using TacoMovies.Contracts;
 using TacoMovies.Data;
 using TacoMovies.Models;
 
 namespace TacoMovies.JSONParser
 {
-    public class CountriesParser
+    public class CountriesParser : IParser
     {
         private readonly MoviesDbContext dbContext;
 
@@ -15,9 +15,9 @@ namespace TacoMovies.JSONParser
             this.dbContext = dbContext;
         }
 
-        public void Parse()
+        public void Parse(string path)
         {
-            var json = File.ReadAllText("../../../ExternalData/Countries.json");
+            var json = File.ReadAllText(path);
 
             var jArray = JArray.Parse(json);
 
@@ -37,5 +37,4 @@ namespace TacoMovies.JSONParser
             dbContext.SaveChanges();
         }
     }
-
 }

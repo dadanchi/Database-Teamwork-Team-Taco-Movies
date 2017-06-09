@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TacoMovies.Contracts
+namespace TacoMovies.Framework.Commands
 {
-    public class Class1
+    public class RegisterUserCommand
     {
+        public RegisterUserCommand()
+        {
+
+        }
     }
 }

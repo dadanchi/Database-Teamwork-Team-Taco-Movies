@@ -4,13 +4,14 @@ using System.Data.Entity.Migrations;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using TacoMovies.Contracts;
 using TacoMovies.Data;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
 
 namespace JSONParser
 {
-    public class ArtistsParser
+    public class ArtistsParser : IParser
     {
         private readonly MoviesDbContext dbContext;
         private readonly Utils utils;
@@ -20,9 +21,9 @@ namespace JSONParser
             this.dbContext = dbContext;
             this.utils = utils;
         }
-        public void Parse()
+        public void Parse(string path)
         {
-            var json = File.ReadAllText("../../../ExternalData/artist.json");
+            var json = File.ReadAllText(path);
 
             var jArray = JArray.Parse(json);
 
