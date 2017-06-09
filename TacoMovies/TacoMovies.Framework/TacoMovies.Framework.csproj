@@ -30,7 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,10 +51,31 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Commands\RegisterUserCommand.cs" />
+    <Compile Include="Core\Engine.cs" />
+    <Compile Include="Factories\CommandFactory.cs" />
+    <Compile Include="Factories\Modelfactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\CommandParser.cs" />
+    <Compile Include="Providers\ConsoleReader.cs" />
+    <Compile Include="Providers\ConsoleWriter.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Providers\" />
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TacoMovies.Contracts\TacoMovies.Contracts.csproj">
+      <Project>{BE842FE9-9D12-45DE-B665-60E75DA95029}</Project>
+      <Name>TacoMovies.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TacoMovies.Data\TacoMovies.Data.csproj">
+      <Project>{41539A34-E313-4F93-AB72-1357469FD54D}</Project>
+      <Name>TacoMovies.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TacoMovies.Models\TacoMovies.Models.csproj">
+      <Project>{e642cda7-cf5b-47e3-9e6e-f8b8701992b8}</Project>
+      <Name>TacoMovies.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

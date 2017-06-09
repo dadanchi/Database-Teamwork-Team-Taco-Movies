@@ -64,9 +64,17 @@
       <Project>{568E8E82-121E-4ED3-A52C-3BE58303EDFA}</Project>
       <Name>TacoMovies.JSONParser</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TacoMovies.Contracts\TacoMovies.Contracts.csproj">
+      <Project>{BE842FE9-9D12-45DE-B665-60E75DA95029}</Project>
+      <Name>TacoMovies.Contracts</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TacoMovies.Data\TacoMovies.Data.csproj">
       <Project>{41539A34-E313-4F93-AB72-1357469FD54D}</Project>
       <Name>TacoMovies.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TacoMovies.Framework\TacoMovies.Framework.csproj">
+      <Project>{8617CE5E-14A5-414D-81EB-CAB126450BC5}</Project>
+      <Name>TacoMovies.Framework</Name>
     </ProjectReference>
     <ProjectReference Include="..\TacoMovies.Models\TacoMovies.Models.csproj">
       <Project>{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}</Project>

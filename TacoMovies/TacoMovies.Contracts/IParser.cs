@@ -1,7 +1,9 @@
-﻿namespace TacoMovies.Contracts
+﻿using System.Collections.Generic;
+
+namespace TacoMovies.Contracts
 {
     public interface IParser
     {
-        void Parse(string path);
+        IList<string> Parse(string path);
     }
 }

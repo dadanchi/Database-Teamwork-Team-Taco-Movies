@@ -6,7 +6,7 @@ using TacoMovies.Models;
 
 namespace TacoMovies.JSONParser
 {
-    public class CountriesParser : IParser
+    public class CountriesParser 
     {
         private readonly MoviesDbContext dbContext;
 

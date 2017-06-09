@@ -11,7 +11,7 @@ using TacoMovies.Models.Enums;
 
 namespace JSONParser
 {
-    public class ArtistsParser : IParser
+    public class ArtistsParser 
     {
         private readonly MoviesDbContext dbContext;
         private readonly Utils utils;

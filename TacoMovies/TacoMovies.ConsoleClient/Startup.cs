@@ -2,7 +2,11 @@
 using System;
 using System.Data.Entity.Migrations;
 using System.Linq;
+using TacoMovies.Contracts;
 using TacoMovies.Data;
+using TacoMovies.Framework.Core;
+using TacoMovies.Framework.Factories;
+using TacoMovies.Framework.Providers;
 using TacoMovies.JSONParser;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
@@ -19,32 +23,15 @@ namespace TacoMovies.ConsoleClient
             //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
             //"../../../ExternalData/movies.json");
 
-            //var user = new User()
-            //{
-            //    Username = "goshko",
-            //    Password = "goshko",
-            //    FirstName = "goshko",
-            //    LastName = "goshkov",
-            //    Authorization = Authorization.Admin
-            //};
+            var writer = new ConsoleWriter();
+            var reader = new ConsoleReader();
+            var parser = new CommandParser(writer, reader);
+            var commandFactory = new CommandFactory();
+            var engine = new Engine(parser, writer, reader, commandFactory, dbContext);
 
-            //dbContext.Users.AddOrUpdate(user);
-            var movie = dbContext.Movies
-                               .Where(x => x.Id == 2)
-                               .First();
+            engine.Start();
 
 
-
-            var goshko = dbContext.Users
-                .Where(x => x.Username == "goshko")
-                .First();
-
-            goshko.Movies.Add(movie);
-
-
-            //dbContext.SaveChanges();
-
-            Console.WriteLine(goshko.Movies.First());
         }
     }
 }
