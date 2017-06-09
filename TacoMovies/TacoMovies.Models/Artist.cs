@@ -26,7 +26,6 @@ namespace TacoMovies.Models
         [MaxLength(40)]
         public string LastName { get; set; }
 
-        [Required]
         public DateTime DateOfBirth { get; set; }
 
         public virtual Country Country { get; set; }
@@ -59,6 +58,11 @@ namespace TacoMovies.Models
             {
                 this.movies = value;
             }
+        }
+
+        public override string ToString()
+        {
+            return this.FirstName + " " + this.LastName;
         }
     }
 }

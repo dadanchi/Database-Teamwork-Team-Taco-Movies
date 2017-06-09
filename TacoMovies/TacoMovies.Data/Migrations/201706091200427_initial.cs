@@ -3,7 +3,7 @@ namespace TacoMovies.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Initial : DbMigration
+    public partial class initial : DbMigration
     {
         public override void Up()
         {
@@ -14,9 +14,9 @@ namespace TacoMovies.Data.Migrations
                         Id = c.Int(nullable: false, identity: true),
                         FirstName = c.String(nullable: false, maxLength: 40),
                         LastName = c.String(nullable: false, maxLength: 40),
-                        DateOfBirth = c.DateTime(nullable: false),
+                        DateOfBirth = c.DateTime(),
                         Profession = c.Int(nullable: false),
-                        Country_Id = c.Int(nullable: false),
+                        Country_Id = c.Int(),
                         Movie_Id = c.Int(),
                     })
                 .PrimaryKey(t => t.Id)
@@ -30,7 +30,7 @@ namespace TacoMovies.Data.Migrations
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Name = c.String(nullable: false, maxLength: 40),
+                        Name = c.String(nullable: false, maxLength: 100),
                     })
                 .PrimaryKey(t => t.Id);
             

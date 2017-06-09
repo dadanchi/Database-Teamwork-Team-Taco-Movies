@@ -9,12 +9,10 @@ namespace TacoMovies.Models
     public class Movie
     {
         private ICollection<Artist> actors;
-        private ICollection<Genre> genres;
 
         public Movie()
         {
             this.actors = new HashSet<Artist>();
-            this.genres = new HashSet<Genre>();
         }
         public int Id { get; set; }
 
@@ -49,17 +47,7 @@ namespace TacoMovies.Models
         }
 
         [Required]
-        public virtual ICollection<Genre> Genres
-        {
-            get
-            {
-                return this.genres;
-            }
-            set
-            {
-                this.genres = value;
-            }
-        }
+        public virtual Genre Genre { get; set; }
 
         public override string ToString()
         {

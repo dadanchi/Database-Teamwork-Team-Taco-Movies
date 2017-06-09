@@ -13,7 +13,7 @@ namespace TacoMovies.Models
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(40)]
+        [MaxLength(100)]
         public string Name { get; set; }
 
         [Required]

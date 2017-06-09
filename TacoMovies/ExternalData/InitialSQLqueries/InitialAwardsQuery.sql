@@ -1,0 +1,21 @@
+INSERT INTO Awards
+  VALUES
+     ('Academy : Best Actor'),
+	 ('Academy : Best Animated Feature'),
+	 ('Academy : Best Director'),
+	 ('Academy : Best Film'),
+	 ('BAFTA : Best Actor'),
+	 ('BAFTA : Best Director'),
+	 ('BAFTA : Best Film'),
+	 ('British Independent Film Awards : Best Actor'),
+	 ('British Independent Film Awards : Best Director'),
+	 ('British Independent Film Awards : Best Film'),
+	 ('Golden Globe : Best Actor'),
+	 ('Golden Globe : Best Director'),
+	 ('Golden Globe : Best Film'),
+	 ('Oscar : Best Actor'),
+	 ('Oscar : Best Director'),
+	 ('Oscar : Best Film'),
+	 ('Tony Award : Best Actor'),
+	 ('Tony Award : Best Director'),
+	 ('Tony Award : Best Film')

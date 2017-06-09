@@ -49,13 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201706071647252_Initial.cs" />
-    <Compile Include="Migrations\201706071647252_Initial.Designer.cs">
-      <DependentUpon>201706071647252_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201706091200427_initial.cs" />
+    <Compile Include="Migrations\201706091200427_initial.Designer.cs">
+      <DependentUpon>201706091200427_initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706080904596_Removed Some required constraints.cs" />
-    <Compile Include="Migrations\201706080904596_Removed Some required constraints.Designer.cs">
-      <DependentUpon>201706080904596_Removed Some required constraints.cs</DependentUpon>
+    <Compile Include="Migrations\201706091222090_change genres.cs" />
+    <Compile Include="Migrations\201706091222090_change genres.Designer.cs">
+      <DependentUpon>201706091222090_change genres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706091317465_many to many actors movies.cs" />
+    <Compile Include="Migrations\201706091317465_many to many actors movies.Designer.cs">
+      <DependentUpon>201706091317465_many to many actors movies.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MoviesDbContext.cs" />
@@ -72,11 +76,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706071647252_Initial.resx">
-      <DependentUpon>201706071647252_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706091200427_initial.resx">
+      <DependentUpon>201706091200427_initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706080904596_Removed Some required constraints.resx">
-      <DependentUpon>201706080904596_Removed Some required constraints.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706091222090_change genres.resx">
+      <DependentUpon>201706091222090_change genres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706091317465_many to many actors movies.resx">
+      <DependentUpon>201706091317465_many to many actors movies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,167 +1,128 @@
 [
-            {
-                "Name": "The Equalizer",
-                "Rating": "7.2",
-                "PublishDate": "09/26/2014",
-                "Length": "132",
-                "Director": "Antoine Fuqua",
-                "Country": "United States",
-                "Actors": [
-                    "Denzel Washington",
-                    "Marton Csokas",
-                    "Chloë Grace Moretz"
-                ],
-                "Genres": [
-                    "Action",
-                    "Crime",
-                    "Thriller"
-                ]
-            },
-            {
-                "Name": "Mad Max: Fury Road",
-                "Rating": "8.1",
-                "PublishDate": "05/15/2015",
-                "Length": "120",
-                "Director": "George Miller",
-                "Country": "United States",
-                "Actors": [
-                    "Tom Hardy",
-                    "Charlize Theron",
-                    "Nicholas Hoult"
-                ],
-                "Genres": [
-                    "Action",
-                    "Advebture",
-                    "Sci-fi"
-                ]
-            },
-            {
-                "Name": "Logan",
-                "Rating": "8.3",
-                "PublishDate": "03/03/2017",
-                "Length": "137",
-                "Director": "James Mangold",
-                "Country": "United States",
-                "Actors": [
-                    "Hugh Jackman",
-                    "Patrick Stewart",
-                    "Dafne Keen"
-                ],
-                "Genres": [
-                    "Action",
-                    "Drama",
-                    "Sci-fi"
-                ]
-            },
-            {
-                "Name": "Rogue One",
-                "Rating": "7.9",
-                "PublishDate": "12/16/2016",
-                "Length": "133",
-                "Director": "Gareth Edwards",
-                "Country": "United States",
-                "Actors": [
-                    "Felicity Jones",
-                    "Diego Luna",
-                    "Alan Tudyk"
-                ],
-                "Genres": [
-                    "Action",
-                    "Adventure",
-                    "Sci-fi"
-                ]
-            },
-            {
-                "Name": "Wonder Woman",
-                "Rating": "8.3",
-                "PublishDate": "07/02/2017",
-                "Length": "141",
-                "Director": "Patty Jenkins",
-                "Country": "United States",
-                "Actors": [
-                    "Gal Gadot",
-                    "Chris Pine",
-                    "Robin Wright"
-                ],
-                "Genres": [
-                    "Action",
-                    "Adventure",
-                    "Fantasy"
-                ]
-            },
-            {
-                "Name": "The Revenant",
-                "Rating": "8.0",
-                "PublishDate": "01/08/2016",
-                "Length": "156",
-                "Director": "Alejandro González Iñárritu",
-                "Country": "United States",
-                "Actors": [
-                    "Leonardo DiCaprio",
-                    "Tom Hardy",
-                    "Will Poulter"
-                ],
-                "Genres": [
-                    "Adventure",
-                    "Drama",
-                    "Thriller"
-                ]
-            },
-            {
-                "Name": "Deadpool",
-                "Rating": "8.0",
-                "PublishDate": "02/12/2016",
-                "Length": "108",
-                "Director": "Tim Miller",
-                "Country": "United States",
-                "Actors": [
-                    "Ryan Reynolds",
-                    "Morena Baccarin",
-                    "T.J. Miller"
-                ],
-                "Genres": [
-                    "Action",
-                    "Adventure",
-                    "Comedy"
-                ]
-            },
-
-            {
-                "Name": "Inception",
-                "Rating": "8.8",
-                "PublishDate": "07/16/2010",
-                "Length": "148",
-                "Director": "Christopher Nolan",
-                "Country": "United States",
-                "Actors": [
-                    "Leonardo DiCaprio",
-                    "Joseph Gordon-Levitt",
-                    "Ellen Page"
-                ],
-                "Genres": [
-                    "Action",
-                    "Adventure",
-                    "Sci-fi"
-                ]
-            },
-
-            {
-                "Name": "Alien: Covenant",
-                "Rating": "6.8",
-                "PublishDate": "05/19/2017",
-                "Length": "122",
-                "Director": "Ridley Scott",
-                "Country": "United States",
-                "Actors": [
-                    "Michael Fassbender",
-                    "Katherine Waterston",
-                    "Billy Crudup"
-                ],
-                "Genres": [
-                    "Horror",
-                    "Sci-fi",
-                    "Thriller"
-                ]
-            }
-
+    {
+        "Name": "The Equalizer",
+        "Rating": "7.2",
+        "PublishDate": "09/26/2014",
+        "Length": "132",
+        "Director": "Antoine Fuqua",
+        "Country": "United States",
+        "Actors": [
+            "Denzel Washington",
+            "Marton Csokas",
+            "Chloë Grace Moretz"
+        ],
+        "Genre": "Action"
+    },
+    {
+        "Name": "Mad Max: Fury Road",
+        "Rating": "8.1",
+        "PublishDate": "05/15/2015",
+        "Length": "120",
+        "Director": "George Miller",
+        "Country": "United States",
+        "Actors": [
+            "Tom Hardy",
+            "Charlize Theron",
+            "Nicholas Hoult"
+        ],
+        "Genre": "Action"
+    },
+    {
+        "Name": "Logan",
+        "Rating": "8.3",
+        "PublishDate": "03/03/2017",
+        "Length": "137",
+        "Director": "James Mangold",
+        "Country": "United States",
+        "Actors": [
+            "Hugh Jackman",
+            "Patrick Stewart",
+            "Dafne Keen"
+        ],
+        "Genre": "Action"
+    },
+    {
+        "Name": "Rogue One",
+        "Rating": "7.9",
+        "PublishDate": "12/16/2016",
+        "Length": "133",
+        "Director": "Gareth Edwards",
+        "Country": "United States",
+        "Actors": [
+            "Felicity Jones",
+            "Diego Luna",
+            "Alan Tudyk"
+        ],
+        "Genre": "Action"
+    },
+    {
+        "Name": "Wonder Woman",
+        "Rating": "8.3",
+        "PublishDate": "07/02/2017",
+        "Length": "141",
+        "Director": "Patty Jenkins",
+        "Country": "United States",
+        "Actors": [
+            "Gal Gadot",
+            "Chris Pine",
+            "Robin Wright"
+        ],
+        "Genre": "Action"
+    },
+    {
+        "Name": "The Revenant",
+        "Rating": "8.0",
+        "PublishDate": "01/08/2016",
+        "Length": "156",
+        "Director": "Alejandro González Iñárritu",
+        "Country": "United States",
+        "Actors": [
+            "Leonardo DiCaprio",
+            "Tom Hardy",
+            "Will Poulter"
+        ],
+        "Genre": "Adventure"
+    },
+    {
+        "Name": "Deadpool",
+        "Rating": "8.0",
+        "PublishDate": "02/12/2016",
+        "Length": "108",
+        "Director": "Tim Miller",
+        "Country": "United States",
+        "Actors": [
+            "Ryan Reynolds",
+            "Morena Baccarin",
+            "T.J. Miller"
+        ],
+        "Genre": "Action"
+    },
+    {
+        "Name": "Inception",
+        "Rating": "8.8",
+        "PublishDate": "07/16/2010",
+        "Length": "148",
+        "Director": "Christopher Nolan",
+        "Country": "United States",
+        "Actors": [
+            "Leonardo DiCaprio",
+            "Joseph Gordon-Levitt",
+            "Ellen Page"
+        ],
+        "Genre": "Sci-fi"
+    },
+    {
+        "Name": "Alien: Covenant",
+        "Rating": "6.8",
+        "PublishDate": "05/19/2017",
+        "Length": "122",
+        "Director": "Ridley Scott",
+        "Country": "United States",
+        "Actors": [
+            "Michael Fassbender",
+            "Katherine Waterston",
+            "Billy Crudup"
+        ],
+        "Genre": "Horror"
+    }
 ]

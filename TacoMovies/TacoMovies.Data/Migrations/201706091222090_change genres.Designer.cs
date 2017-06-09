@@ -7,13 +7,13 @@ namespace TacoMovies.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Initial : IMigrationMetadata
+    public sealed partial class changegenres : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(changegenres));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706071647252_Initial"; }
+            get { return "201706091222090_change genres"; }
         }
         
         string IMigrationMetadata.Source

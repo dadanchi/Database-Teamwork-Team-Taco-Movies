@@ -6,6 +6,7 @@ namespace TacoMovies.Models
     public class Genre
     {
         private ICollection<Movie> movies;
+
         public Genre()
         {
             this.movies = new HashSet<Movie>();

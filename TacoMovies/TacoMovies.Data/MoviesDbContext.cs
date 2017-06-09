@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure.Annotations;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -33,8 +34,20 @@ namespace TacoMovies.Data
             this.OnUserModelCreating(modelBuilder);
             this.OnGenreModelCreating(modelBuilder);
             this.OnCountryModelCreating(modelBuilder);
+            this.OnArtistModelCreating(modelBuilder);
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        private void OnArtistModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Artist>()
+                .Property(x => x.DateOfBirth)
+                .IsOptional();
+
+            modelBuilder.Entity<Artist>()
+                .HasMany<Movie>(x => x.Movies)
+                .WithMany(x => x.Actors);
         }
 
         private void OnCountryModelCreating(DbModelBuilder modelBuilder)

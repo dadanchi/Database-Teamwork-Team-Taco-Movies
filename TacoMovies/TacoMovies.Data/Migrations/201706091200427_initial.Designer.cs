@@ -7,13 +7,13 @@ namespace TacoMovies.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class RemovedSomerequiredconstraints : IMigrationMetadata
+    public sealed partial class initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(RemovedSomerequiredconstraints));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706080904596_Removed Some required constraints"; }
+            get { return "201706091200427_initial"; }
         }
         
         string IMigrationMetadata.Source
