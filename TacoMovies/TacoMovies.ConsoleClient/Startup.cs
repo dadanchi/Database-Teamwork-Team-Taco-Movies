@@ -25,6 +25,7 @@ namespace TacoMovies.ConsoleClient
             var dbContext = new MoviesDbContext();
 
             StartDemoUseSqlite();
+            StartDemoUsePostgre();
 
             //var parser = new MasterParser(dbContext);
             //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
@@ -33,17 +34,34 @@ namespace TacoMovies.ConsoleClient
 
             var engine = kernel.Get<IEngine>();
             engine.Start();
+        }
 
+        private static void StartDemoUsePostgre()
+        {
+            var dbContext = new Data.Postgre.MoviesDbContext();
+
+            /*dbContext.Set<Country>().Add(new Country
+            {
+                Name = "Bulgaria"
+            });
+
+            dbContext.SaveChanges();*/
+
+            var result = dbContext.Countries
+                .Where(c => c.Name == "Bulgaria")
+                .Select(x => x.Name)
+                .ToList();
+            Console.WriteLine(string.Join(",", result));
         }
 
         private static void StartDemoUseSqlite()
         {
-            System.Console.WriteLine("Starting Demo SQLite (File)");
-            System.Console.WriteLine(string.Empty);
+            Console.WriteLine("Starting Demo SQLite: ");
+            Console.WriteLine(string.Empty);
 
-            using (var context = new CommandDbContext("moviesSQLiteDB"))
+            using (var context = new CommandDbContext("CommandsSQLiteDB"))
             {
-               /* context.Set<Command>().Add(new Command
+                /*context.Set<Command>().Add(new Command
                 {
                     ExecutionTime = DateTime.Now,
                     Text = "Add movie 1"
@@ -59,7 +77,7 @@ namespace TacoMovies.ConsoleClient
 
                 foreach (var cmd in context.Set<Command>())
                 {
-                    System.Console.WriteLine(cmd.Id + "---" + cmd.Text);
+                    Console.WriteLine(cmd.Id + "---" + cmd.Text);
                 }
             }
         }
