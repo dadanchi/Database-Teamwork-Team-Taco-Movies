@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
@@ -10,10 +9,12 @@ namespace TacoMovies.Framework.Commands
     public class RegisterUserCommand : ICommand
     {
         private readonly IMovieDbContext dbContext;
+        private readonly IAuthProvider authProvider;
 
-        public RegisterUserCommand(IMovieDbContext dbContext)
+        public RegisterUserCommand(IMovieDbContext dbContext, IAuthProvider authProvider)
         {
             this.dbContext = dbContext;
+            this.authProvider = authProvider;
         }
 
         public string Execute(IList<string> parameters)
@@ -36,7 +37,9 @@ namespace TacoMovies.Framework.Commands
 
             dbContext.SaveChanges();
 
-            return $"{newUser.Username} has successfully registered!";
+            this.authProvider.CurrentUsername = newUser.Username;
+
+            return $"{newUser.Username} has successfully registered! You are now logged in.";
         }
     }
 }

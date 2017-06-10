@@ -6,6 +6,7 @@ namespace TacoMovies.Contracts
 {
     public interface ICommandFactory
     {
-        ICommand GetCommand(string commandAsString, IMovieDbContext dbContext, IAuthProvider authProvider, User user);
+        ICommand GetCommand(string commandAsString, IMovieDbContext dbContext, IAuthProvider authProvider,
+             IReader reader, IWriter writer, IUtils utils);
     }
 }

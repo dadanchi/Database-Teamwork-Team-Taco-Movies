@@ -32,6 +32,10 @@ namespace TacoMovies.Framework.Providers
                     {
                         return ParseLoginCommand();
                     }
+                case "add movie":
+                    {
+                        return ParseAddMovieCommand();
+                    }
                 case "create movie":
                     {
                         return ParseCreateMovieCommand();
@@ -88,6 +92,23 @@ namespace TacoMovies.Framework.Providers
             return awardData;
         }
 
+        private IList<string> ParseAddMovieCommand()
+        {
+            var userData = new List<string>();
+
+            this.writer.WriteLine("Enter the name of the movie you want to add : ");
+            var movieTitle = this.reader.Read();
+
+            if (!this.validator.DoesMovieExist(movieTitle, this.dbContext))
+            {
+                throw new Exception("There is no movie with such name in the database.");
+            }
+
+            userData.Add(movieTitle);
+
+            return userData;
+        }
+
         private IList<string> ParseLoginCommand()
         {
             var userData = new List<string>();
@@ -108,7 +129,7 @@ namespace TacoMovies.Framework.Providers
         private IList<string> ParseRegisterCommand()
         {
             var userData = new List<string>();
-            
+
             this.writer.WriteLine("Enter a username : ");
             var username = this.reader.Read();
             while (!this.validator.ValidateUsernameOrPassword(username) || this.validator.IsUsernameTaken(username, this.dbContext))
@@ -161,10 +182,6 @@ namespace TacoMovies.Framework.Providers
             this.writer.WriteLine("Enter country : ");
             var country = this.reader.Read();
             artistData.Add(country);
-
-            this.writer.WriteLine("Enter award (if any) : ");
-            var award = this.reader.Read();
-            artistData.Add(award);
 
             return artistData;
         }

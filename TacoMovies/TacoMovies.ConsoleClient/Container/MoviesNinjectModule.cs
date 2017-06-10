@@ -1,4 +1,5 @@
-﻿using Ninject.Modules;
+﻿using JSONParser;
+using Ninject.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,8 @@ namespace TacoMovies.ConsoleClient.Container
             this.Bind<IWriter>().To<ConsoleWriter>();
             this.Bind<IReader>().To<ConsoleReader>();
             this.Bind<IMovieDbContext>().To<MoviesDbContext>();
+            this.Bind<IConfigurationProvider>().To<ConfigurationProvider>();
+            this.Bind<IUtils>().To<Utils>();
         }
     }
 }

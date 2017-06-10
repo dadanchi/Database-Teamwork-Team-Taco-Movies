@@ -1,11 +1,7 @@
 ﻿using JSONParser;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity.Migrations;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
@@ -17,19 +13,32 @@ namespace TacoMovies.Framework.Commands
     {
         private readonly IMovieDbContext dbContext;
         private readonly Utils utils;
-        public AddArtistCommand(IMovieDbContext dbContext)
+        private readonly IAuthProvider authProvider;
+
+        public AddArtistCommand(IMovieDbContext dbContext, IAuthProvider authProvider)
         {
             this.dbContext = dbContext;
             this.utils = new Utils(dbContext);
+            this.authProvider = authProvider;
+
+            if (this.authProvider.CurrentUsername == string.Empty)
+            {
+                throw new Exception("You must be logged in for this command");
+            }
+
+            if (!this.authProvider.IsAuthorized())
+            {
+                throw new Exception("You don't have authority for this command");
+            }
         }
+
         public string Execute(IList<string> parameters)
         {
             var artistFirstName = parameters[0];
             var artistLastName = parameters[1];
             var dateOfBirth = DateTime.Parse(parameters[2], new CultureInfo("en-CA"));
-            var profession = (Profession)Enum.Parse(typeof(Profession), parameters[3]);
+            var profession = (Profession)Enum.Parse(typeof(Profession), parameters[3].ToLower());
             var countryToAdd = utils.FindCurrentCountry(parameters[4]);
-            var awardName = parameters[5];
 
             var artist = new Artist
             {
@@ -40,14 +49,10 @@ namespace TacoMovies.Framework.Commands
                 Country = countryToAdd,
             };
 
-            var awardToAdd = this.utils.FindCurrentAward(awardName);
-            artist.Awards.Add(awardToAdd);
-
-            dbContext.Artists.AddOrUpdate(n => new { n.FirstName, n.LastName}, artist);
+            dbContext.Artists.Add(artist);
             dbContext.SaveChanges();
 
             return $"{artist.FirstName} {artist.LastName} has been successfully added!";
         }
     }
 }
-

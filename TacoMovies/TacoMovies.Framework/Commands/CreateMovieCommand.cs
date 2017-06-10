@@ -3,37 +3,46 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity.Migrations;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
 using TacoMovies.Framework.Providers;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
 
+/// <summary>
+/// not working - need to fix it
+/// </summary>
 namespace TacoMovies.Framework.Commands
 {
-
     public class CreateMovieCommand : ICommand
     {
         private IMovieDbContext dbContext;
-        private readonly Utils utils;
+        private readonly IUtils utils;
         private readonly IWriter writer;
         private readonly IReader reader;
+        private readonly IAuthProvider authProvider;
 
-        public CreateMovieCommand(IMovieDbContext dbContext)
+        public CreateMovieCommand(IMovieDbContext dbContext, IAuthProvider authProvider, IReader reader, IWriter writer, IUtils utils)
         {
             this.dbContext = dbContext;
-            this.utils = new Utils(dbContext);
-            this.writer = new ConsoleWriter();
-            this.reader = new ConsoleReader();
+            this.utils = utils;
+            this.writer = writer;
+            this.reader = reader;
+            this.authProvider = authProvider;
+
+            if (this.authProvider.CurrentUsername == string.Empty)
+            {
+                throw new Exception("You must be logged in for this command");
+            }
+
+            if (!this.authProvider.IsAuthorized())
+            {
+                throw new Exception("You don't have authority for this command");
+            }
         }
 
         public string Execute(IList<string> parameters)
         {
-            var createArtist = new AddArtistCommand(dbContext);
-
             var movieName = parameters[0];
             var rating = float.Parse(parameters[1]);
             var publishDate = DateTime.Parse(parameters[2], new CultureInfo("en-CA"));
@@ -58,12 +67,6 @@ namespace TacoMovies.Framework.Commands
                 this.writer.WriteLine("Enter actor (or type end to terminate) : ");
                 var input = this.reader.Read();
 
-                this.writer.WriteLine("Enter actor's date of birth : ");
-                var dateOfBirth = this.reader.Read();
-
-                this.writer.WriteLine("Enter actor's country : ");
-                var country = this.reader.Read();
-
                 if (input.ToLower() == "end")
                 {
                     break;
@@ -74,14 +77,12 @@ namespace TacoMovies.Framework.Commands
                 }
 
                 var actorToAdd = utils.FindCurrentArtist(input, Profession.Actor);
-                actorToAdd.DateOfBirth = DateTime.Parse(dateOfBirth, new CultureInfo("en-CA"));
-                actorToAdd.Country = this.utils.FindCurrentCountry(country);
-                movie.Actors.Add(actorToAdd);
-                
 
+                movie.Actors.Add(actorToAdd);
             }
 
             dbContext.Movies.AddOrUpdate(m => m.Name, movie);
+
             dbContext.SaveChanges();
 
             return $"{movie.Name} has been successfully created!";

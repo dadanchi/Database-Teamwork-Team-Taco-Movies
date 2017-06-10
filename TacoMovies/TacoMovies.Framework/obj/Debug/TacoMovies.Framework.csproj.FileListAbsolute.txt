@@ -113,3 +113,8 @@ C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovie
 C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.csprojResolveAssemblyReference.cache
 C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.dll
 C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.pdb
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\JSONParser.dll
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\JSONParser.pdb
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\JSONParser.dll.config
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\Newtonsoft.Json.xml

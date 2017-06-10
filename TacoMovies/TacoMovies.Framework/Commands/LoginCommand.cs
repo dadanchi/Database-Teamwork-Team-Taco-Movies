@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using TacoMovies.Contracts;
-using TacoMovies.Data;
 using TacoMovies.Data.Contracts;
-using TacoMovies.Models;
 
 namespace TacoMovies.Framework.Commands
 {
@@ -12,13 +9,16 @@ namespace TacoMovies.Framework.Commands
     {
         private readonly IMovieDbContext dbContext;
         private readonly IAuthProvider authProvider;
-        private User user;
 
-        public LoginCommand(IMovieDbContext dbContext, IAuthProvider authProvider, User user)
+        public LoginCommand(IMovieDbContext dbContext, IAuthProvider authProvider)
         {
             this.dbContext = dbContext;
             this.authProvider = authProvider;
-            this.user = user;
+
+            if (this.authProvider.CurrentUsername != string.Empty)
+            {
+                throw new Exception($"User {authProvider.CurrentUsername} is already logged in.");
+            }
         }
 
         public string Execute(IList<string> parameters)
@@ -26,9 +26,9 @@ namespace TacoMovies.Framework.Commands
             var username = parameters[0];
             var password = parameters[1];
 
-            this.user = this.authProvider.LogInUser(username, password, dbContext);
+            this.authProvider.LogInUser(username, password);
 
-            return $"{user.Username} has successfully logged in!";
+            return $"{username} has successfully logged in!";
         }
     }
 }

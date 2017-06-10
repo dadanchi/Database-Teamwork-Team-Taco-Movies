@@ -1,13 +1,12 @@
-﻿using System;
-using System.Linq;
-using TacoMovies.Data;
+﻿using System.Linq;
+using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
 
 namespace JSONParser
 {
-    public class Utils
+    public class Utils : IUtils
     {
         private readonly IMovieDbContext dbContext;
 
@@ -15,6 +14,7 @@ namespace JSONParser
         {
             this.dbContext = dbContext;
         }
+
         public Country FindCurrentCountry(string currentCountryName)
         {
             var currentCountry = this.dbContext.Countries
@@ -29,6 +29,16 @@ namespace JSONParser
             var genre = this.dbContext.Genres
                      .Where(c => c.Name == genreName)
                      .FirstOrDefault();
+
+            if (genre == null)
+            {
+                genre = new Genre()
+                {
+                    Name = genreName
+                };
+
+                dbContext.Genres.Add(genre);
+            }
 
             return genre;
         }

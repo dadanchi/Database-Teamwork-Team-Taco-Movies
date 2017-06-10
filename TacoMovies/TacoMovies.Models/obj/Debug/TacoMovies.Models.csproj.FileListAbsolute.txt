@@ -15,7 +15,6 @@ C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\Ta
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.dll
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.pdb
-C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.dll
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb
 H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.dll

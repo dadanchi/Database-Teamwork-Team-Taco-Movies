@@ -49,10 +49,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\AddUserMovieCommand.cs" />
     <Compile Include="Commands\AddArtistCommand.cs" />
     <Compile Include="Commands\AddAwardsCommand.cs" />
     <Compile Include="Commands\CreateMovieCommand.cs" />
+    <Compile Include="Commands\HelpCommand.cs" />
     <Compile Include="Commands\LoginCommand.cs" />
+    <Compile Include="Commands\LogOutCommand.cs" />
     <Compile Include="Commands\RegisterUserCommand.cs" />
     <Compile Include="Commands\UpdateDirectorInfoCommand.cs" />
     <Compile Include="Core\Engine.cs" />

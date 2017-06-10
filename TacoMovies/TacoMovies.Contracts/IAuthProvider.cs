@@ -1,10 +1,13 @@
-﻿using TacoMovies.Data.Contracts;
-using TacoMovies.Models;
-
-namespace TacoMovies.Contracts
+﻿namespace TacoMovies.Contracts
 {
     public interface IAuthProvider
     {
-        User LogInUser(string username, string password, IMovieDbContext dbContext);
+        string CurrentUsername { get; set; }
+
+        bool IsAuthorized();
+
+        void LogInUser(string username, string password);
+
+        void LogOut();
     }
 }

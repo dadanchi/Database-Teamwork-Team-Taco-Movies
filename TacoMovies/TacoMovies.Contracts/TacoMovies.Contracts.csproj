@@ -41,9 +41,11 @@
     <Compile Include="IAuthProvider.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="ICommandFactory.cs" />
+    <Compile Include="IConfigurationProvider.cs" />
     <Compile Include="IEngine.cs" />
     <Compile Include="IParser.cs" />
     <Compile Include="IReader.cs" />
+    <Compile Include="IUtils.cs" />
     <Compile Include="IWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

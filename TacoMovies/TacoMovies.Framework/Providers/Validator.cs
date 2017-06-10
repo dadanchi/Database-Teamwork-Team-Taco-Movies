@@ -41,5 +41,18 @@ namespace TacoMovies.Framework.Providers
 
             return false;
         }
+
+        public bool DoesMovieExist(string movieName, IMovieDbContext dbContext)
+        {
+            var movie = dbContext.Movies.Where(x => x.Name == movieName).FirstOrDefault();
+
+            if (movie != null)
+            {
+                //this.writer.WriteLine(MovieDoesNotExistMessage);
+                return true;
+            }
+
+            return false;
+        }
     }
 }

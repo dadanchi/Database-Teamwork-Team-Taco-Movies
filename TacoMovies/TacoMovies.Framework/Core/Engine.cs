@@ -13,11 +13,11 @@ namespace TacoMovies.Framework.Core
         private readonly ICommandFactory commandFactory;
         private readonly IMovieDbContext dbContext;
         private readonly IAuthProvider authProvider;
+        private readonly IUtils utils;
         private User currentUser;
 
-
         public Engine(IParser parser, IWriter writer, IReader reader, ICommandFactory commandFactory,
-              IMovieDbContext dbContext, User user, IAuthProvider authProvider)
+              IMovieDbContext dbContext, User user, IAuthProvider authProvider, IUtils utils)
         {
             this.writer = writer;
             this.reader = reader;
@@ -26,11 +26,13 @@ namespace TacoMovies.Framework.Core
             this.parser = parser;
             this.currentUser = user;
             this.authProvider = authProvider;
+            this.utils = utils;
         }
 
         public void Start()
         {
             var terminateCommand = "exit";
+            string username = string.Empty;
 
             while (true)
             {
@@ -43,14 +45,15 @@ namespace TacoMovies.Framework.Core
 
                 try
                 {
-                    var command = this.commandFactory.GetCommand(commandAsString, this.dbContext, this.authProvider, this.currentUser);
-                    var parameters = this.parser.Parse(commandAsString);                   
+                    var command = this.commandFactory.GetCommand(commandAsString, this.dbContext, this.authProvider,
+                        this.reader, this.writer, this.utils);
+                    var parameters = this.parser.Parse(commandAsString);
                     var resultMessage = command.Execute(parameters);
 
                     this.writer.WriteLine(resultMessage);
                 }
 
-                catch(Exception e)
+                catch (Exception e)
                 {
                     this.writer.WriteLine(e.Message);
                 }
