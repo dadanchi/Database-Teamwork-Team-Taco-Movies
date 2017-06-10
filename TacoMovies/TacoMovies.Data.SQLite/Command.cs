@@ -1,7 +1,7 @@
 ﻿using System;
 using SQLite.CodeFirst;
 
-namespace TacoMovies.Data.Sqlite
+namespace TacoMovies.Data.SQLite
 {
     public class Command
     {

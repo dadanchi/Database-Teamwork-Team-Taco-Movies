@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Contracts", "Tac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Data.Postgre", "TacoMovies.Data.Postgre\TacoMovies.Data.Postgre.csproj", "{87C82389-FC3F-479C-8549-DE3FD5F15BF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Data.SQLite", "TacoMovies.Data.SQLite\TacoMovies.Data.SQLite.csproj", "{6EC53CB1-6099-4A9D-A0AB-5CD0DF46E315}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{87C82389-FC3F-479C-8549-DE3FD5F15BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87C82389-FC3F-479C-8549-DE3FD5F15BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87C82389-FC3F-479C-8549-DE3FD5F15BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC53CB1-6099-4A9D-A0AB-5CD0DF46E315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC53CB1-6099-4A9D-A0AB-5CD0DF46E315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC53CB1-6099-4A9D-A0AB-5CD0DF46E315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC53CB1-6099-4A9D-A0AB-5CD0DF46E315}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

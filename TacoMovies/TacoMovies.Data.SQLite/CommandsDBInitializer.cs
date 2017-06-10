@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 using SQLite.CodeFirst;
 
-namespace TacoMovies.Data.Sqlite
+namespace TacoMovies.Data.SQLite
 {
     public class CommandsDBInitializer : SqliteDropCreateDatabaseAlways<CommandsDbContext>
     {

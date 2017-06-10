@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace TacoMovies.Data.Sqlite
+namespace TacoMovies.Data.SQLite
 {
     public class ModelConfiguration
     {
