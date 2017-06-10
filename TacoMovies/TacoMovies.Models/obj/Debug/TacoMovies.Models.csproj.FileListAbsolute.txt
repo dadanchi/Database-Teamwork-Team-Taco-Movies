@@ -33,3 +33,8 @@ H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movie
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.dll
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb

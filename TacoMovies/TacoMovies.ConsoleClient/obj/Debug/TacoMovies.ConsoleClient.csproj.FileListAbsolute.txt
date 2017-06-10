@@ -158,3 +158,34 @@ H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movie
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Ninject.xml
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.exe.config
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.exe
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.exe
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\JSONParser.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Ninject.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Contracts.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Data.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Framework.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Models.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\JSONParser.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Contracts.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Data.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Framework.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.xml
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Ninject.xml
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\SQLite.CodeFirst.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\System.Data.SQLite.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\System.Data.SQLite.xml
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Data.SQLite.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Data.SQLite.pdb

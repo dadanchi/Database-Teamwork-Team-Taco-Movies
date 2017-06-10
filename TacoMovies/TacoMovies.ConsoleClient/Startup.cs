@@ -7,6 +7,8 @@ using System.Linq;
 using TacoMovies.ConsoleClient.Container;
 using TacoMovies.Contracts;
 using TacoMovies.Data;
+using TacoMovies.Data.SQLite;
+using TacoMovies.Data.SQLite.Entity;
 using TacoMovies.Framework.Core;
 using TacoMovies.Framework.Factories;
 using TacoMovies.Framework.Providers;
@@ -22,6 +24,8 @@ namespace TacoMovies.ConsoleClient
         {
             var dbContext = new MoviesDbContext();
 
+            StartDemoUseSqlite();
+
             //var parser = new MasterParser(dbContext);
             //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
             //"../../../ExternalData/movies.json");
@@ -30,6 +34,34 @@ namespace TacoMovies.ConsoleClient
             var engine = kernel.Get<IEngine>();
             engine.Start();
 
+        }
+
+        private static void StartDemoUseSqlite()
+        {
+            System.Console.WriteLine("Starting Demo SQLite (File)");
+            System.Console.WriteLine(string.Empty);
+
+            using (var context = new CommandDbContext("moviesSQLiteDB"))
+            {
+               /* context.Set<Command>().Add(new Command
+                {
+                    ExecutionTime = DateTime.Now,
+                    Text = "Add movie 1"
+                });
+
+                context.Set<Command>().Add(new Command
+                {
+                    ExecutionTime = DateTime.Now,
+                    Text = "Add movie 2"
+                });
+
+                context.SaveChanges();*/
+
+                foreach (var cmd in context.Set<Command>())
+                {
+                    System.Console.WriteLine(cmd.Id + "---" + cmd.Text);
+                }
+            }
         }
     }
 }

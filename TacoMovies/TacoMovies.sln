@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Framework", "Tac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Contracts", "TacoMovies.Contracts\TacoMovies.Contracts.csproj", "{BE842FE9-9D12-45DE-B665-60E75DA95029}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Data.Postgre", "TacoMovies.Data.Postgre\TacoMovies.Data.Postgre.csproj", "{87C82389-FC3F-479C-8549-DE3FD5F15BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Data.SQLite", "TacoMovies.Data.SQLite\TacoMovies.Data.SQLite.csproj", "{A919EA0A-9F38-47C8-A1E1-747EBB9E10E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{BE842FE9-9D12-45DE-B665-60E75DA95029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE842FE9-9D12-45DE-B665-60E75DA95029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE842FE9-9D12-45DE-B665-60E75DA95029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C82389-FC3F-479C-8549-DE3FD5F15BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C82389-FC3F-479C-8549-DE3FD5F15BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C82389-FC3F-479C-8549-DE3FD5F15BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C82389-FC3F-479C-8549-DE3FD5F15BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A919EA0A-9F38-47C8-A1E1-747EBB9E10E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A919EA0A-9F38-47C8-A1E1-747EBB9E10E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A919EA0A-9F38-47C8-A1E1-747EBB9E10E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A919EA0A-9F38-47C8-A1E1-747EBB9E10E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

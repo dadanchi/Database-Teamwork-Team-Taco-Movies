@@ -122,3 +122,22 @@ H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movie
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.dll
 H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.dll.config
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Models.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.xml
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.initial.resources
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.changegenres.resources
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.manytomanyactorsmovies.resources
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.passwordmaxsymbols.resources
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.manytomanyusersmovies.resources
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.passwordlengthandvarcharonit.resources
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.dll
+C:\Users\Acer\Desktop\TP\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.pdb
