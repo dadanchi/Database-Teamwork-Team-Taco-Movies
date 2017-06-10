@@ -66,6 +66,8 @@ namespace TacoMovies.Framework.Providers
                 username = this.reader.Read();
             }
 
+            //this.validator.IsUsernameTaken(username);
+
             userData.Add(username);
 
             this.writer.WriteLine("Enter a password : ");

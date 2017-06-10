@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TacoMovies.Contracts;
-using TacoMovies.Data;
 using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
 
@@ -46,10 +42,19 @@ namespace TacoMovies.Framework.Core
                     break;
                 }
 
-                var command = this.commandFactory.GetCommand(commandAsString, this.dbContext, this.authProvider, this.currentUser);
-                var parameters = this.parser.Parse(commandAsString);
+                try
+                {
+                    var command = this.commandFactory.GetCommand(commandAsString, this.dbContext, this.authProvider, this.currentUser);
+                    var parameters = this.parser.Parse(commandAsString);                   
+                    var resultMessage = command.Execute(parameters);
 
-                command.Execute(parameters);
+                    this.writer.WriteLine(resultMessage);
+                }
+
+                catch(Exception e)
+                {
+                    this.writer.WriteLine(e.Message);
+                }
             }
         }
     }

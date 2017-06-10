@@ -16,7 +16,7 @@ namespace TacoMovies.Framework.Commands
             this.dbContext = dbContext;
         }
 
-        public void Execute(IList<string> parameters)
+        public string Execute(IList<string> parameters)
         {
             var username = parameters[0];
             var password = parameters[1];
@@ -35,6 +35,8 @@ namespace TacoMovies.Framework.Commands
             this.dbContext.Users.Add(newUser);
 
             dbContext.SaveChanges();
+
+            return $"{newUser.Username} has successfully registered!";
         }
     }
 }

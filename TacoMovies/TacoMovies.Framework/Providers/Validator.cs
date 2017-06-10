@@ -1,4 +1,7 @@
-﻿using TacoMovies.Contracts;
+﻿using System;
+using System.Linq;
+using TacoMovies.Contracts;
+using TacoMovies.Data.Contracts;
 
 namespace TacoMovies.Framework.Providers
 {
@@ -24,5 +27,12 @@ namespace TacoMovies.Framework.Providers
 
             return true;
         }
+
+        //internal void IsUsernameTaken(string username, IMovieDbContext dbContext)
+        //{
+        //    bool result;
+
+        //    var user = dbContext.Users.Where(x => )
+        //}
     }
 }

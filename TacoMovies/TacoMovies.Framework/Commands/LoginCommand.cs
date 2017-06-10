@@ -22,13 +22,14 @@ namespace TacoMovies.Framework.Commands
 
         }
 
-        public void Execute(IList<string> parameters)
+        public string Execute(IList<string> parameters)
         {
             var username = parameters[0];
             var password = parameters[1];
 
             this.user = this.authProvider.LogInUser(username, password, dbContext);
-            
+
+            return $"{user.Username} has successfully logged in!";
         }
     }
 }
