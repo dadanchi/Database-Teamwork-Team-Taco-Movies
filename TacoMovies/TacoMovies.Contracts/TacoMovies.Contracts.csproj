@@ -44,7 +44,6 @@
     <Compile Include="IEngine.cs" />
     <Compile Include="IParser.cs" />
     <Compile Include="IReader.cs" />
-    <Compile Include="IServiceLocator.cs" />
     <Compile Include="IWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -85,3 +85,22 @@ H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movie
 H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\TacoMovies.JSONParser.csprojResolveAssemblyReference.cache
 H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.dll
 H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.pdb
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.dll.config
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.dll
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.pdb
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.dll
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Contracts.dll
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Data.dll
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Models.dll
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Contracts.pdb
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Data.pdb
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Data.dll.config
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.xml
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\TacoMovies.JSONParser.csprojResolveAssemblyReference.cache
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.dll
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.pdb

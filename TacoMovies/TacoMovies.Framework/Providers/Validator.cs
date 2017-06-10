@@ -31,7 +31,7 @@ namespace TacoMovies.Framework.Providers
 
         public bool IsUsernameTaken(string username, IMovieDbContext dbContext)
         {
-            var user = dbContext.Users.Where(x => x.Username == username).First();
+            var user = dbContext.Users.Where(x => x.Username == username).FirstOrDefault();
 
             if(user != null)
             {
@@ -39,7 +39,7 @@ namespace TacoMovies.Framework.Providers
                 return true;
             }
 
-            return true;
+            return false;
         }
     }
 }
