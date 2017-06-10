@@ -32,6 +32,8 @@ namespace TacoMovies.Framework.Commands
 
         public string Execute(IList<string> parameters)
         {
+            var createArtist = new AddArtistCommand(dbContext);
+
             var movieName = parameters[0];
             var rating = float.Parse(parameters[1]);
             var publishDate = DateTime.Parse(parameters[2], new CultureInfo("en-CA"));
@@ -56,6 +58,12 @@ namespace TacoMovies.Framework.Commands
                 this.writer.WriteLine("Enter actor (or type end to terminate) : ");
                 var input = this.reader.Read();
 
+                this.writer.WriteLine("Enter actor's date of birth : ");
+                var dateOfBirth = this.reader.Read();
+
+                this.writer.WriteLine("Enter actor's country : ");
+                var country = this.reader.Read();
+
                 if (input.ToLower() == "end")
                 {
                     break;
@@ -66,7 +74,10 @@ namespace TacoMovies.Framework.Commands
                 }
 
                 var actorToAdd = utils.FindCurrentArtist(input, Profession.Actor);
+                actorToAdd.DateOfBirth = DateTime.Parse(dateOfBirth, new CultureInfo("en-CA"));
+                actorToAdd.Country = this.utils.FindCurrentCountry(country);
                 movie.Actors.Add(actorToAdd);
+                
 
             }
 

@@ -44,8 +44,37 @@ namespace TacoMovies.Framework.Providers
                     {
                         return ParseAwardCommand();
                     }
+                case "update director info":
+                    {
+                        return ParseUpdateDirectorInfo();
+                    }
                 default: return null;
             }
+        }
+
+        private IList<string> ParseUpdateDirectorInfo()
+        {
+            var directorInfo = new List<string>();
+
+
+            this.writer.WriteLine("Enter director's first name : ");
+            var firstName = this.reader.Read();
+            directorInfo.Add(firstName);
+
+
+            this.writer.WriteLine("Enter director's last name : ");
+            var lastName = this.reader.Read();
+            directorInfo.Add(lastName);
+
+            this.writer.WriteLine("Enter date of birth : ");
+            var birthDate = this.reader.Read();
+            directorInfo.Add(birthDate);
+
+            this.writer.WriteLine("Enter country : ");
+            var country = this.reader.Read();
+            directorInfo.Add(country);
+
+            return directorInfo;
         }
 
         private IList<string> ParseAwardCommand()
