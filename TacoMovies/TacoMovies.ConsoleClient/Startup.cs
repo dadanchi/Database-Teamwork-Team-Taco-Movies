@@ -29,14 +29,6 @@ namespace TacoMovies.ConsoleClient
             var engine = kernel.Get<IEngine>();
             engine.Start();
 
-            //Console.WriteLine("Enter movie name : ");
-            //var movieName = Console.ReadLine();
-
-            //Console.WriteLine("Enter rating : ");
-            //var rating = float.Parse(Console.ReadLine());
-
-
-
         }
     }
 }

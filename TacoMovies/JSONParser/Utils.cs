@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using TacoMovies.Data;
+using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
 
@@ -8,9 +9,9 @@ namespace JSONParser
 {
     public class Utils
     {
-        private readonly MoviesDbContext dbContext;
+        private readonly IMovieDbContext dbContext;
 
-        public Utils(MoviesDbContext dbContext)
+        public Utils(IMovieDbContext dbContext)
         {
             this.dbContext = dbContext;
         }

@@ -13,10 +13,10 @@ namespace TacoMovies.Framework.Factories
 {
     public class CommandFactory : ICommandFactory
     {
-        public CommandFactory(Ikernel kernel)
-        {
+        //public CommandFactory(IKernel kernel)
+        //{
 
-        }
+        //}
 
         public ICommand GetCommand(string commandAsString, IMovieDbContext dbContext, IAuthProvider authProvider, User user)
         {
@@ -24,6 +24,8 @@ namespace TacoMovies.Framework.Factories
             {
                 case "register": return new RegisterUserCommand(dbContext);
                 case "login": return new LoginCommand(dbContext, authProvider, user);
+                case "create movie": return new CreateMovieCommand(dbContext);
+                case "add artist": return new AddArtistCommand(dbContext);
                 default: throw new Exception("There is no such command, enter Help to see all available commands");
             }
         }

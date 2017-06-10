@@ -15,7 +15,7 @@ namespace TacoMovies.ConsoleClient.Container
             this.kernel = kernel;
         }
 
-        ICommand GetCommand(string commandAsString, IMovieDbContext dbContext, IAuthProvider authProvider, User user)
+        public ICommand GetCommand(string commandAsString, IMovieDbContext dbContext, IAuthProvider authProvider, User user)
         {
             return this.kernel.Get<ICommand>(commandAsString);
         }

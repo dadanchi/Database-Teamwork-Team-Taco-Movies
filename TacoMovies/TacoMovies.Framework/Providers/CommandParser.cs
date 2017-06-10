@@ -32,6 +32,14 @@ namespace TacoMovies.Framework.Providers
                     {
                         return ParseLoginCommand();
                     }
+                case "create movie":
+                    {
+                        return ParseCreateMovieCommand();
+                    }
+                case "add artist":
+                    {
+                        return ParseAddArtistCommand();
+                    }
                 default: return null;
             }
         }
@@ -84,6 +92,69 @@ namespace TacoMovies.Framework.Providers
             userData.Add(lastName);
 
             return userData;
+        }
+
+        private IList<string> ParseAddArtistCommand()
+        {
+            var artistData = new List<string>();
+
+            this.writer.WriteLine("Enter First name : ");
+            var firstName = this.reader.Read();
+            artistData.Add(firstName);
+
+            this.writer.WriteLine("Enter Last name : ");
+            var lastName = this.reader.Read();
+            artistData.Add(lastName);
+
+            this.writer.WriteLine("Enter date of birth : ");
+            var dateOfBirth = this.reader.Read();
+            artistData.Add(dateOfBirth);
+
+            this.writer.WriteLine("Enter profession : ");
+            var profession = this.reader.Read();
+            artistData.Add(profession);
+
+            this.writer.WriteLine("Enter country : ");
+            var country = this.reader.Read();
+            artistData.Add(country);
+
+            return artistData;
+        }
+
+        private List<string> ParseCreateMovieCommand()
+        {
+            var movieData = new List<string>();
+
+            this.writer.WriteLine("Enter movie name : ");
+            var movieName = this.reader.Read();
+            movieData.Add(movieName);
+
+            this.writer.WriteLine("Enter rating : ");
+            var rating = this.reader.Read();
+            movieData.Add(rating);
+
+            this.writer.WriteLine("Enter publish date : ");
+            var date = this.reader.Read();
+            movieData.Add(date);
+
+            this.writer.WriteLine("Enter length : ");
+            var length = this.reader.Read();
+            movieData.Add(length);
+
+            this.writer.WriteLine("Enter director : ");
+            var director = this.reader.Read();
+            movieData.Add(director);
+
+            this.writer.WriteLine("Enter country : ");
+            var country = this.reader.Read();
+            movieData.Add(country);
+
+            this.writer.WriteLine("Enter genre");
+            var genre = this.reader.Read();
+            movieData.Add(genre);
+
+            return movieData;
+
         }
     }
 }

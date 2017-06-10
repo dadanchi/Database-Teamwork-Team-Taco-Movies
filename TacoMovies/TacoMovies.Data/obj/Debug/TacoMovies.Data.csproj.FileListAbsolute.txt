@@ -65,3 +65,22 @@ C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\Ta
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.dll
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.dll.config
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Data.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.SqlServer.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Models.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\TacoMovies.Models.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\bin\Debug\EntityFramework.SqlServer.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csprojResolveAssemblyReference.cache
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.initial.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.changegenres.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.manytomanyactorsmovies.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.passwordmaxsymbols.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.manytomanyusersmovies.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.Migrations.passwordlengthandvarcharonit.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.csproj.GenerateResource.Cache
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data\obj\Debug\TacoMovies.Data.pdb

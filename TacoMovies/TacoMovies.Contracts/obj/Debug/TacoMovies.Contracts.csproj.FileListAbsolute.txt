@@ -21,3 +21,14 @@ C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\Ta
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.csprojResolveAssemblyReference.cache
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.dll
 C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Contracts.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Contracts.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Models.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\EntityFramework.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Models.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\EntityFramework.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.csprojResolveAssemblyReference.cache
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 17.00\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.pdb
