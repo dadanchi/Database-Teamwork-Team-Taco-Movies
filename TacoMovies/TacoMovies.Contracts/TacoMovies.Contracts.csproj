@@ -33,13 +33,12 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAuthProvider.cs" />
     <Compile Include="ICommand.cs" />
     <Compile Include="ICommandFactory.cs" />
     <Compile Include="IParser.cs" />
@@ -51,6 +50,10 @@
     <ProjectReference Include="..\TacoMovies.Data\TacoMovies.Data.csproj">
       <Project>{41539A34-E313-4F93-AB72-1357469FD54D}</Project>
       <Name>TacoMovies.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TacoMovies.Models\TacoMovies.Models.csproj">
+      <Project>{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}</Project>
+      <Name>TacoMovies.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

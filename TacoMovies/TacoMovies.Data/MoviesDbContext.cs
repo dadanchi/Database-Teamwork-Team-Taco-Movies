@@ -1,13 +1,17 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure.Annotations;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Linq;
+using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
 
 namespace TacoMovies.Data
 {
-    public class MoviesDbContext : DbContext
+    public class MoviesDbContext : DbContext, IMovieDbContext
     {
         public MoviesDbContext() : base("MoviesDB")
         {

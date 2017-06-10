@@ -1,10 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TacoMovies.Contracts;
-using TacoMovies.Data;
+using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
 
@@ -12,9 +9,9 @@ namespace TacoMovies.Framework.Commands
 {
     public class RegisterUserCommand : ICommand
     {
-        private readonly MoviesDbContext dbContext;
+        private readonly IMovieDbContext dbContext;
 
-        public RegisterUserCommand(MoviesDbContext dbContext)
+        public RegisterUserCommand(IMovieDbContext dbContext)
         {
             this.dbContext = dbContext;
         }

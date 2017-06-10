@@ -9,3 +9,15 @@ H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovie
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.pdb
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\EntityFramework.xml
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Contracts.dll
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Contracts.pdb
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.dll
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\EntityFramework.dll
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Models.dll
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.pdb
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.dll.config
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\EntityFramework.xml
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Models.pdb
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.dll
+C:\Users\Dadanchi\Desktop\Taco2\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.pdb

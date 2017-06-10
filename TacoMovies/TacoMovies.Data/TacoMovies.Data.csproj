@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IMovieDbContext.cs" />
     <Compile Include="Migrations\201706091200427_initial.cs" />
     <Compile Include="Migrations\201706091200427_initial.Designer.cs">
       <DependentUpon>201706091200427_initial.cs</DependentUpon>
@@ -82,12 +83,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TacoMovies.Models\TacoMovies.Models.csproj">
-      <Project>{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}</Project>
-      <Name>TacoMovies.Models</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\201706091200427_initial.resx">
       <DependentUpon>201706091200427_initial.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +102,13 @@
       <DependentUpon>201706091454580_password length and varchar on it.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TacoMovies.Models\TacoMovies.Models.csproj">
+      <Project>{e642cda7-cf5b-47e3-9e6e-f8b8701992b8}</Project>
+      <Name>TacoMovies.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

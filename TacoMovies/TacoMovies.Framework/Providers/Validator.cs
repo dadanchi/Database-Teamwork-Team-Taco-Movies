@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TacoMovies.Contracts;
+﻿using TacoMovies.Contracts;
 
 namespace TacoMovies.Framework.Providers
 {
@@ -11,7 +6,6 @@ namespace TacoMovies.Framework.Providers
     {
         private const string IncorectUsernameOrPassword = "Input should be between 4 and 20 character inclusive.\n Enter again : ";
        
-
         private readonly IWriter writer;
         private readonly IReader reader; 
         public Validator(IWriter writer, IReader reader)
@@ -20,16 +14,15 @@ namespace TacoMovies.Framework.Providers
             this.reader = reader;
         }
 
-
-        public void ValidateUsernameOrPassword(string input)
+        public bool ValidateUsernameOrPassword(string input)
         {
-            while(input.Length < 4 || input.Length > 20)
+            if(input.Length < 4 || input.Length > 20)
             {
-
-                this.writer.Write(IncorectUsernameOrPassword);
-                input = this.reader.Read();
+                this.writer.WriteLine(IncorectUsernameOrPassword);
+                return false;
             }
-        }
 
+            return true;
+        }
     }
 }

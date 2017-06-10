@@ -23,18 +23,22 @@ namespace TacoMovies.ConsoleClient
             //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
             //"../../../ExternalData/movies.json");
 
-            //var writer = new ConsoleWriter();
-            //var reader = new ConsoleReader();
-            //var parser = new CommandParser(writer, reader);
-            //var commandFactory = new CommandFactory();
-            //var engine = new Engine(parser, writer, reader, commandFactory, dbContext);
+            var writer = new ConsoleWriter();
+            var reader = new ConsoleReader();
+            var parser = new CommandParser(writer, reader);
+            var commandFactory = new CommandFactory();
+            var authProvider = new AuthProvider();
+            var user = new User();
+            
+            var engine = new Engine(parser, writer, reader, commandFactory, dbContext, user, authProvider);
 
-            //engine.Start();
-            Console.WriteLine("Enter movie name : ");
-            var movieName = Console.ReadLine();
+            engine.Start();
 
-            Console.WriteLine("Enter rating : ");
-            var rating = float.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter movie name : ");
+            //var movieName = Console.ReadLine();
+
+            //Console.WriteLine("Enter rating : ");
+            //var rating = float.Parse(Console.ReadLine());
 
 
 

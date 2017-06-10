@@ -27,32 +27,61 @@ namespace TacoMovies.Framework.Providers
             switch (command.ToLower())
             {
                 case "register":
-                    {                       
+                    {
                         return ParseRegisterCommand();
+                    }
+                case "login":
+                    {
+                        return ParseLoginCommand();
                     }
                 default: return null;
             }
+        }
+
+        private IList<string> ParseLoginCommand()
+        {
+            var userData = new List<string>();
+
+            this.writer.WriteLine("Enter a username : ");
+            var username = this.reader.Read();
+            this.validator.ValidateUsernameOrPassword(username);
+            userData.Add(username);
+
+            this.writer.WriteLine("Enter a password : ");
+            var password = this.reader.Read();
+            this.validator.ValidateUsernameOrPassword(password);
+            userData.Add(password);
+
+            return userData;
         }
 
         private IList<string> ParseRegisterCommand()
         {
             var userData = new List<string>();
 
-            this.writer.Write("Enter a username : ");
+            this.writer.WriteLine("Enter a username : ");
             var username = this.reader.Read();
-            this.validator.ValidateUsernameOrPassword(username);
+            while (!this.validator.ValidateUsernameOrPassword(username))
+            {
+                username = this.reader.Read();
+            }
+
             userData.Add(username);
 
-            this.writer.Write("Enter a password : ");
+            this.writer.WriteLine("Enter a password : ");
             var password = this.reader.Read();
-            this.validator.ValidateUsernameOrPassword(password);
+            while (!this.validator.ValidateUsernameOrPassword(password))
+            {
+                password = this.reader.Read();
+            }
+
             userData.Add(password);
 
-            this.writer.Write("Enter a first name : ");
+            this.writer.WriteLine("Enter a first name : ");
             var firstName = this.reader.Read();
             userData.Add(firstName);
 
-            this.writer.Write("Enter a last name : ");
+            this.writer.WriteLine("Enter a last name : ");
             var lastName = this.reader.Read();
             userData.Add(lastName);
 
