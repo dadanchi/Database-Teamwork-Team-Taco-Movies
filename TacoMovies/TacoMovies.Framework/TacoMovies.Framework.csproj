@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Commands\AddMovieCommand.cs" />
     <Compile Include="Commands\RegisterUserCommand.cs" />
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Factories\CommandFactory.cs" />
@@ -58,6 +58,7 @@
     <Compile Include="Providers\CommandParser.cs" />
     <Compile Include="Providers\ConsoleReader.cs" />
     <Compile Include="Providers\ConsoleWriter.cs" />
+    <Compile Include="Providers\Validator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
