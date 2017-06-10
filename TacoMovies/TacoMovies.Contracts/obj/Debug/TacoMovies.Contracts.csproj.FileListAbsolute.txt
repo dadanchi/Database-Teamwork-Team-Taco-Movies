@@ -9,14 +9,3 @@ H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovie
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.pdb
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\EntityFramework.xml
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Models.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Contracts.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Contracts.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\EntityFramework.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Models.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Data.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\EntityFramework.xml
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Models.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.csprojResolveAssemblyReference.cache
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.pdb

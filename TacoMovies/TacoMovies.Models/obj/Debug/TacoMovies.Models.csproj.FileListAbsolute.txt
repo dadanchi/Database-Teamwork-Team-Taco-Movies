@@ -13,8 +13,3 @@ C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\Ta
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.dll
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache

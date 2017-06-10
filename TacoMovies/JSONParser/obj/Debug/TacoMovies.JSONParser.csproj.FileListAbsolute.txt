@@ -48,21 +48,3 @@ C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JS
 C:\Users\Dell\Desktop\Team Taco\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\Newtonsoft.Json.xml
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Contracts.dll
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Contracts.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.dll.config
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\JSONParser.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Contracts.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Data.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Models.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Contracts.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Data.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Models.pdb
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.xml
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\TacoMovies.JSONParser.csprojResolveAssemblyReference.cache
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.dll
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.pdb
