@@ -134,3 +134,6 @@ C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\Ta
 C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.csprojResolveAssemblyReference.cache
 C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.exe
 C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.exe.config
+H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.exe
+H:\Lazar\Telerik\Databases\TeamWork\pull 18.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.pdb

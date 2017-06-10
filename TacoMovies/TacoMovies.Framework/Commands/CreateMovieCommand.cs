@@ -66,7 +66,7 @@ namespace TacoMovies.Framework.Commands
                 }
 
                 var actorToAdd = utils.FindCurrentArtist(input, Profession.Actor);
-                dbContext.Artists.Add(actorToAdd);
+                movie.Actors.Add(actorToAdd);
 
             }
 
