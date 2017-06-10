@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TacoMovies.Contracts;
+using TacoMovies.Data.Contracts;
 using TacoMovies.Framework.Factories;
 using TacoMovies.Models;
 
@@ -14,11 +15,13 @@ namespace TacoMovies.Framework.Providers
         private readonly IWriter writer;
         private readonly IReader reader;
         private Validator validator;
-
-        public CommandParser(IWriter writer, IReader reader)
+        private IMovieDbContext dbContext;
+        
+        public CommandParser(IWriter writer, IReader reader, IMovieDbContext dbContext)
         {
             this.writer = writer;
             this.reader = reader;
+            this.dbContext = dbContext;
             this.validator = new Validator(writer, reader);
         }
 
@@ -58,15 +61,13 @@ namespace TacoMovies.Framework.Providers
         private IList<string> ParseRegisterCommand()
         {
             var userData = new List<string>();
-
+            
             this.writer.WriteLine("Enter a username : ");
             var username = this.reader.Read();
-            while (!this.validator.ValidateUsernameOrPassword(username))
+            while (!this.validator.ValidateUsernameOrPassword(username) || this.validator.IsUsernameTaken(username, this.dbContext))
             {
                 username = this.reader.Read();
             }
-
-            //this.validator.IsUsernameTaken(username);
 
             userData.Add(username);
 

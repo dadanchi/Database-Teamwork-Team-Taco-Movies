@@ -17,10 +17,9 @@ namespace TacoMovies.Framework.Providers
                 .Where(x => x.Username == username && x.Password == password)
                 .FirstOrDefault();
 
-            // validate somewhere here
             if (user == null)
             {
-                throw new ArgumentException("Username/password not found");
+                throw new ArgumentException("Wrong username/password");
             }
 
             return user;

@@ -25,7 +25,7 @@ namespace TacoMovies.ConsoleClient
 
             var writer = new ConsoleWriter();
             var reader = new ConsoleReader();
-            var parser = new CommandParser(writer, reader);
+            var parser = new CommandParser(writer, reader, dbContext);
             var commandFactory = new CommandFactory();
             var authProvider = new AuthProvider();
             var user = new User();

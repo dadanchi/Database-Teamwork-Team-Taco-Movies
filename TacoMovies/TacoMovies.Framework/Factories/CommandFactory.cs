@@ -19,7 +19,7 @@ namespace TacoMovies.Framework.Factories
             {
                 case "register": return new RegisterUserCommand(dbContext);
                 case "login": return new LoginCommand(dbContext, authProvider, user);
-                default: return null;
+                default: throw new Exception("There is no such command, enter Help to see all available commands");
 
             }
         }

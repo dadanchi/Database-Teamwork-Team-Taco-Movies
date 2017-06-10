@@ -8,7 +8,8 @@ namespace TacoMovies.Framework.Providers
     public class Validator
     {
         private const string IncorectUsernameOrPassword = "Input should be between 4 and 20 character inclusive.\n Enter again : ";
-       
+        private const string TakenUsernameMessage = "Username is taken.\n Enter again : ";
+
         private readonly IWriter writer;
         private readonly IReader reader; 
         public Validator(IWriter writer, IReader reader)
@@ -28,11 +29,17 @@ namespace TacoMovies.Framework.Providers
             return true;
         }
 
-        //internal void IsUsernameTaken(string username, IMovieDbContext dbContext)
-        //{
-        //    bool result;
+        public bool IsUsernameTaken(string username, IMovieDbContext dbContext)
+        {
+            var user = dbContext.Users.Where(x => x.Username == username).First();
 
-        //    var user = dbContext.Users.Where(x => )
-        //}
+            if(user != null)
+            {
+                this.writer.WriteLine(TakenUsernameMessage);
+                return true;
+            }
+
+            return true;
+        }
     }
 }

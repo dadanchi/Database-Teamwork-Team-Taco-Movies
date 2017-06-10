@@ -19,7 +19,6 @@ namespace TacoMovies.Framework.Commands
             this.dbContext = dbContext;
             this.authProvider = authProvider;
             this.user = user;
-
         }
 
         public string Execute(IList<string> parameters)
