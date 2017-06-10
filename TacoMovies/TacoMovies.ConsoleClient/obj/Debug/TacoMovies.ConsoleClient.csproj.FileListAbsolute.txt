@@ -57,8 +57,6 @@ H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovie
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Framework.dll
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.Framework.pdb
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.exe.config
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.exe
-C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.pdb
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.exe
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ConsoleClient.pdb
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.dll
@@ -78,3 +76,5 @@ C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.exe
+C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.pdb

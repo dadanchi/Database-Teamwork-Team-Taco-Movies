@@ -17,3 +17,4 @@ C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\bin\Debug\TacoMovies.Models.pdb
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.dll
 C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb
+C:\Users\Acer\Desktop\TeamProject\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache

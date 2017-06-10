@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>dbd25c22-2eb3-40a3-9a18-b1c467418c49</ProjectGuid>
+    <ProjectGuid>6ec53cb1-6099-4a9d-a0ab-5cd0df46e315</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TacoMovies.Data.Sqlite</RootNamespace>
-    <AssemblyName>TacoMovies.Data.Sqlite</AssemblyName>
+    <RootNamespace>TacoMovies.Data.SQLite</RootNamespace>
+    <AssemblyName>TacoMovies.Data.SQLite</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
