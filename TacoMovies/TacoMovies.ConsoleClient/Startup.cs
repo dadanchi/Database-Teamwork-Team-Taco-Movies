@@ -1,7 +1,9 @@
 ﻿using JSONParser;
+using Ninject;
 using System;
 using System.Data.Entity.Migrations;
 using System.Linq;
+using TacoMovies.ConsoleClient.Container;
 using TacoMovies.Contracts;
 using TacoMovies.Data;
 using TacoMovies.Framework.Core;
@@ -22,16 +24,9 @@ namespace TacoMovies.ConsoleClient
             //var parser = new MasterParser(dbContext);
             //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
             //"../../../ExternalData/movies.json");
+            var kernel = new StandardKernel(new MoviesNinjectModule());
 
-            var writer = new ConsoleWriter();
-            var reader = new ConsoleReader();
-            var parser = new CommandParser(writer, reader, dbContext);
-            var commandFactory = new CommandFactory();
-            var authProvider = new AuthProvider();
-            var user = new User();
-            
-            var engine = new Engine(parser, writer, reader, commandFactory, dbContext, user, authProvider);
-
+            var engine = kernel.Get<IEngine>();
             engine.Start();
 
             //Console.WriteLine("Enter movie name : ");

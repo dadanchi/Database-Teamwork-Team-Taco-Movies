@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Linq;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
 
 namespace TacoMovies.Framework.Core
 {
-    public class Engine
+    public class Engine : IEngine
     {
         private readonly IWriter writer;
         private readonly IReader reader;

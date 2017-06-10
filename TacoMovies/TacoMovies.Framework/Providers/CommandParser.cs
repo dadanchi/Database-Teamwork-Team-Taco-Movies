@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
-using TacoMovies.Framework.Factories;
-using TacoMovies.Models;
 
 namespace TacoMovies.Framework.Providers
 {
