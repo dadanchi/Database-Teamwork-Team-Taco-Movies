@@ -29,6 +29,7 @@ namespace TacoMovies.Framework.Commands
             var dateOfBirth = DateTime.Parse(parameters[2], new CultureInfo("en-CA"));
             var profession = (Profession)Enum.Parse(typeof(Profession), parameters[3]);
             var countryToAdd = utils.FindCurrentCountry(parameters[4]);
+            var awardName = parameters[5];
 
             var artist = new Artist
             {
@@ -39,7 +40,10 @@ namespace TacoMovies.Framework.Commands
                 Country = countryToAdd,
             };
 
-            dbContext.Artists.Add(artist);
+            var awardToAdd = this.utils.FindCurrentAward(awardName);
+            artist.Awards.Add(awardToAdd);
+
+            dbContext.Artists.AddOrUpdate(n => new { n.FirstName, n.LastName}, artist);
             dbContext.SaveChanges();
 
             return $"{artist.FirstName} {artist.LastName} has been successfully added!";

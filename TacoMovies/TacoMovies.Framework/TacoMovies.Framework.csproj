@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\AddArtistCommand.cs" />
+    <Compile Include="Commands\AddAwardsCommand.cs" />
     <Compile Include="Commands\CreateMovieCommand.cs" />
     <Compile Include="Commands\LoginCommand.cs" />
     <Compile Include="Commands\RegisterUserCommand.cs" />

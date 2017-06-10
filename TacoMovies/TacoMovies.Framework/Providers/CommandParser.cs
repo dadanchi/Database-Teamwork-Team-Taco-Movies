@@ -40,8 +40,23 @@ namespace TacoMovies.Framework.Providers
                     {
                         return ParseAddArtistCommand();
                     }
+                case "add award":
+                    {
+                        return ParseAwardCommand();
+                    }
                 default: return null;
             }
+        }
+
+        private IList<string> ParseAwardCommand()
+        {
+            var awardData = new List<string>();
+
+            this.writer.WriteLine("Enter award name : ");
+            var award = this.reader.Read();
+            awardData.Add(award);
+
+            return awardData;
         }
 
         private IList<string> ParseLoginCommand()
@@ -117,6 +132,10 @@ namespace TacoMovies.Framework.Providers
             this.writer.WriteLine("Enter country : ");
             var country = this.reader.Read();
             artistData.Add(country);
+
+            this.writer.WriteLine("Enter award (if any) : ");
+            var award = this.reader.Read();
+            artistData.Add(award);
 
             return artistData;
         }

@@ -29,6 +29,15 @@ namespace TacoMovies.ConsoleClient
             var engine = kernel.Get<IEngine>();
             engine.Start();
 
+            //var ff = dbContext.Artists
+            //               .Where(g => g.FirstName == "Kyv")
+            //               .First();
+
+            //foreach (var item in ff.Awards)
+            //{
+            //    Console.WriteLine(item.Name);
+            //}
+
         }
     }
 }
