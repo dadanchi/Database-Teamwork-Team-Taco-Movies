@@ -9,7 +9,6 @@ namespace TacoMovies.Framework.Providers
     {
         private readonly IWriter writer;
         private readonly IReader reader;
-        private Validator validator;
         private IMovieDbContext dbContext;
         
         public CommandParser(IWriter writer, IReader reader, IMovieDbContext dbContext)
@@ -17,7 +16,6 @@ namespace TacoMovies.Framework.Providers
             this.writer = writer;
             this.reader = reader;
             this.dbContext = dbContext;
-            this.validator = new Validator(writer, reader);
         }
 
         public IList<string> Parse(string command)
@@ -99,7 +97,7 @@ namespace TacoMovies.Framework.Providers
             this.writer.WriteLine("Enter the name of the movie you want to add : ");
             var movieTitle = this.reader.Read();
 
-            if (!this.validator.DoesMovieExist(movieTitle, this.dbContext))
+            if (!Validator.DoesMovieExist(movieTitle, this.dbContext, this.writer))
             {
                 throw new Exception("There is no movie with such name in the database.");
             }
@@ -115,12 +113,12 @@ namespace TacoMovies.Framework.Providers
 
             this.writer.WriteLine("Enter a username : ");
             var username = this.reader.Read();
-            this.validator.ValidateUsernameOrPassword(username);
+            Validator.ValidateUsernameOrPassword(username, this.writer);
             userData.Add(username);
 
             this.writer.WriteLine("Enter a password : ");
             var password = this.reader.Read();
-            this.validator.ValidateUsernameOrPassword(password);
+            Validator.ValidateUsernameOrPassword(password, this.writer);
             userData.Add(password);
 
             return userData;
@@ -132,7 +130,7 @@ namespace TacoMovies.Framework.Providers
 
             this.writer.WriteLine("Enter a username : ");
             var username = this.reader.Read();
-            while (!this.validator.ValidateUsernameOrPassword(username) || this.validator.IsUsernameTaken(username, this.dbContext))
+            while (!Validator.ValidateUsernameOrPassword(username, this.writer) || Validator.IsUsernameTaken(username, this.dbContext, writer))
             {
                 username = this.reader.Read();
             }
@@ -141,7 +139,7 @@ namespace TacoMovies.Framework.Providers
 
             this.writer.WriteLine("Enter a password : ");
             var password = this.reader.Read();
-            while (!this.validator.ValidateUsernameOrPassword(password))
+            while (!Validator.ValidateUsernameOrPassword(password, this.writer))
             {
                 password = this.reader.Read();
             }

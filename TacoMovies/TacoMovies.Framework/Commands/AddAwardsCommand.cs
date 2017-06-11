@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
+using TacoMovies.Framework.Providers;
 using TacoMovies.Models;
 
 namespace TacoMovies.Framework.Commands
@@ -15,18 +16,21 @@ namespace TacoMovies.Framework.Commands
     public class AddAwardsCommand : ICommand
     {
         private readonly IMovieDbContext dbContext;
-        private readonly Utils utils;
+        private readonly IUtils utils;
+        private readonly IAuthProvider authProvider;
 
-        public AddAwardsCommand(IMovieDbContext dbContext)
+        public AddAwardsCommand(IMovieDbContext dbContext, IUtils utils, IAuthProvider authProvider)
         {
             this.dbContext = dbContext;
-            this.utils = new Utils(dbContext);
+            this.utils = utils;
+            this.authProvider = authProvider;
+
+            Validator.IsUserAuhtorised(authProvider);
         }
 
         public string Execute(IList<string> parameters)
         {
             var awardName = parameters[0];
-
 
             var award = new Award
             {

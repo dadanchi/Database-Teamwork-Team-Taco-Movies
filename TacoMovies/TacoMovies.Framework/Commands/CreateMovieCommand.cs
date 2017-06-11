@@ -16,7 +16,7 @@ namespace TacoMovies.Framework.Commands
 {
     public class CreateMovieCommand : ICommand
     {
-        private IMovieDbContext dbContext;
+        private readonly IMovieDbContext dbContext;
         private readonly IUtils utils;
         private readonly IWriter writer;
         private readonly IReader reader;
@@ -30,15 +30,7 @@ namespace TacoMovies.Framework.Commands
             this.reader = reader;
             this.authProvider = authProvider;
 
-            if (this.authProvider.CurrentUsername == string.Empty)
-            {
-                throw new Exception("You must be logged in for this command");
-            }
-
-            if (!this.authProvider.IsAuthorized())
-            {
-                throw new Exception("You don't have authority for this command");
-            }
+            Validator.IsUserAuhtorised(authProvider);
         }
 
         public string Execute(IList<string> parameters)

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
+using TacoMovies.Framework.Providers;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
 
@@ -12,24 +13,16 @@ namespace TacoMovies.Framework.Commands
     public class AddArtistCommand : ICommand
     {
         private readonly IMovieDbContext dbContext;
-        private readonly Utils utils;
+        private readonly IUtils utils;
         private readonly IAuthProvider authProvider;
 
-        public AddArtistCommand(IMovieDbContext dbContext, IAuthProvider authProvider)
+        public AddArtistCommand(IMovieDbContext dbContext, IAuthProvider authProvider, IUtils utils)
         {
             this.dbContext = dbContext;
-            this.utils = new Utils(dbContext);
+            this.utils = utils;
             this.authProvider = authProvider;
 
-            if (this.authProvider.CurrentUsername == string.Empty)
-            {
-                throw new Exception("You must be logged in for this command");
-            }
-
-            if (!this.authProvider.IsAuthorized())
-            {
-                throw new Exception("You don't have authority for this command");
-            }
+            Validator.IsUserAuhtorised(authProvider);
         }
 
         public string Execute(IList<string> parameters)

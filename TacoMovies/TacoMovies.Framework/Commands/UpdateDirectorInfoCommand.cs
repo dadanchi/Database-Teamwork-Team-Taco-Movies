@@ -7,18 +7,23 @@ using System.Text;
 using System.Threading.Tasks;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
+using TacoMovies.Framework.Providers;
 
 namespace TacoMovies.Framework.Commands
 {
     public class UpdateDirectorInfoCommand : ICommand
     {
-        private IMovieDbContext dbContext;
-        private Utils utils;
+        private readonly IMovieDbContext dbContext;
+        private readonly IUtils utils;
+        private readonly IAuthProvider authProvider;
 
-        public UpdateDirectorInfoCommand(IMovieDbContext dbContext)
+        public UpdateDirectorInfoCommand(IMovieDbContext dbContext, IUtils utils, IAuthProvider authProvider)
         {
             this.dbContext = dbContext;
-            this.utils = new Utils(dbContext);
+            this.utils = utils;
+            this.authProvider = authProvider;
+
+            Validator.IsUserAuhtorised(authProvider);
         }
 
         public string Execute(IList<string> parameters)

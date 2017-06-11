@@ -7,6 +7,8 @@ namespace TacoMovies.Framework.Core
 {
     public class Engine : IEngine
     {
+        private const string TerminateCommand = "exit";
+        private const string WelcomeMessage = "Welcome to Taco Movies ! \n Enter a command or type Help to see your options :";
         private readonly IWriter writer;
         private readonly IReader reader;
         private readonly IParser parser;
@@ -31,14 +33,15 @@ namespace TacoMovies.Framework.Core
 
         public void Start()
         {
-            var terminateCommand = "exit";
             string username = string.Empty;
+
+            this.writer.WriteLine(WelcomeMessage);
 
             while (true)
             {
                 var commandAsString = this.reader.Read();
 
-                if (commandAsString.ToLower() == terminateCommand)
+                if (commandAsString.ToLower() == TerminateCommand)
                 {
                     break;
                 }

@@ -34,6 +34,28 @@ namespace TacoMovies.ConsoleClient
 
             var engine = kernel.Get<IEngine>();
             engine.Start();
+
+            //var user = dbContext.Users
+            //                  .Where(n => n.Username == "Pesho")
+            //                  .First();
+
+            //foreach (var item in user.Movies)
+            //{
+            //    Console.WriteLine(item.Name);
+            //}
+            
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
         private static void StartDemoUsePostgre()
@@ -51,13 +73,13 @@ namespace TacoMovies.ConsoleClient
                 .Where(c => c.Name == "Bulgaria")
                 .Select(x => x.Name)
                 .ToList();
-            Console.WriteLine(string.Join(",", result));
+           // Console.WriteLine(string.Join(",", result));
         }
 
         private static void StartDemoUseSqlite()
         {
-            Console.WriteLine("Starting Demo SQLite: ");
-            Console.WriteLine(string.Empty);
+            //Console.WriteLine("Starting Demo SQLite: ");
+            //Console.WriteLine(string.Empty);
 
             using (var context = new CommandDbContext("CommandsSQLiteDB"))
             {
@@ -75,10 +97,10 @@ namespace TacoMovies.ConsoleClient
 
                 context.SaveChanges();*/
 
-                foreach (var cmd in context.Set<Command>())
-                {
-                    Console.WriteLine(cmd.Id + "---" + cmd.Text);
-                }
+                //foreach (var cmd in context.Set<Command>())
+                //{
+                //    Console.WriteLine(cmd.Id + "---" + cmd.Text);
+                //}
             }
         }
     }
