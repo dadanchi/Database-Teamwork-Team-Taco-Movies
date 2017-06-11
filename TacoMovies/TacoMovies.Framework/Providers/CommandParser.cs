@@ -46,37 +46,41 @@ namespace TacoMovies.Framework.Providers
                     {
                         return ParseAwardCommand();
                     }
-                case "update director info":
+                case "update artist info":
                     {
-                        return ParseUpdateDirectorInfo();
+                        return ParseUpdateArtistInfo();
                     }
                 default: return null;
             }
         }
 
-        private IList<string> ParseUpdateDirectorInfo()
+        private IList<string> ParseUpdateArtistInfo()
         {
-            var directorInfo = new List<string>();
+            var artistInfo = new List<string>();
 
 
-            this.writer.WriteLine("Enter director's first name : ");
+            this.writer.WriteLine("Enter artist's first name : ");
             var firstName = this.reader.Read();
-            directorInfo.Add(firstName);
+            artistInfo.Add(firstName);
 
 
-            this.writer.WriteLine("Enter director's last name : ");
+            this.writer.WriteLine("Enter artist's last name : ");
             var lastName = this.reader.Read();
-            directorInfo.Add(lastName);
+            artistInfo.Add(lastName);
 
             this.writer.WriteLine("Enter date of birth : ");
             var birthDate = this.reader.Read();
-            directorInfo.Add(birthDate);
+            artistInfo.Add(birthDate);
+
+            this.writer.WriteLine("Enter profession : ");
+            var profession = this.reader.Read();
+            artistInfo.Add(profession);
 
             this.writer.WriteLine("Enter country : ");
             var country = this.reader.Read();
-            directorInfo.Add(country);
+            artistInfo.Add(country);
 
-            return directorInfo;
+            return artistInfo;
         }
 
         private IList<string> ParseAwardCommand()

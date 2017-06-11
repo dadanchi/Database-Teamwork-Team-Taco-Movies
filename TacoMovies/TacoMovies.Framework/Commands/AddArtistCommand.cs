@@ -30,7 +30,7 @@ namespace TacoMovies.Framework.Commands
             var artistFirstName = parameters[0];
             var artistLastName = parameters[1];
             var dateOfBirth = DateTime.Parse(parameters[2], new CultureInfo("en-CA"));
-            var profession = (Profession)Enum.Parse(typeof(Profession), parameters[3].ToLower());
+            var profession = (Profession)Enum.Parse(typeof(Profession), parameters[3]);
             var countryToAdd = utils.FindCurrentCountry(parameters[4]);
 
             var artist = new Artist

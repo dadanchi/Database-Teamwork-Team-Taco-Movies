@@ -25,7 +25,7 @@ namespace TacoMovies.ConsoleClient.Container
             this.Bind<IParser>().To<CommandParser>();
             this.Bind<IWriter>().To<ConsoleWriter>();
             this.Bind<IReader>().To<ConsoleReader>();
-            this.Bind<IMovieDbContext>().To<MoviesDbContext>();
+            this.Bind<IMovieDbContext>().To<MoviesDbContext>().InSingletonScope();
             this.Bind<IConfigurationProvider>().To<ConfigurationProvider>();
             this.Bind<IUtils>().To<Utils>();
         }

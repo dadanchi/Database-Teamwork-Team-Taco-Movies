@@ -1,4 +1,5 @@
-﻿using TacoMovies.Models;
+﻿using TacoMovies.Data.Contracts;
+using TacoMovies.Models;
 using TacoMovies.Models.Enums;
 
 namespace TacoMovies.Contracts

@@ -6,6 +6,9 @@ using TacoMovies.Models.Enums;
 
 namespace TacoMovies.Framework.Commands
 {
+    /// <summary>
+    /// not working - need to fix it
+    /// </summary>
     public class RegisterUserCommand : ICommand
     {
         private readonly IMovieDbContext dbContext;

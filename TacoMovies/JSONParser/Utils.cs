@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Data.Entity.Migrations;
+using System.Linq;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
 using TacoMovies.Models;
@@ -37,17 +38,23 @@ namespace JSONParser
                     Name = genreName
                 };
 
-                dbContext.Genres.Add(genre);
+                dbContext.Genres.AddOrUpdate(n => n.Name, genre);
             }
 
             return genre;
         }
-
+        
         public Artist FindCurrentArtist(string actorName, Profession profession)
         {
             var artistAsString = actorName.ToString().Split(' ');
             var firstName = artistAsString[0];
-            var lastName = artistAsString[1];
+            string lastName = "";
+
+            if (!string.IsNullOrEmpty(artistAsString[1]))
+            {
+                lastName = artistAsString[1];
+            }
+            
 
             var artist = this.dbContext.Artists
                 .Where(x => x.FirstName == firstName && x.LastName == lastName)
@@ -62,9 +69,10 @@ namespace JSONParser
                     Profession = profession,
                 };
 
-                dbContext.Artists.Add(newArtist);
+                dbContext.Artists.AddOrUpdate(n => new { n.FirstName, n.LastName }, newArtist);
 
                 return newArtist;
+                
             }
 
             return artist;

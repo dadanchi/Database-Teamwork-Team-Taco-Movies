@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json.Linq;
+using System.Data.Entity.Migrations;
 using System.IO;
 using TacoMovies.Contracts;
 using TacoMovies.Data;
@@ -30,7 +31,7 @@ namespace TacoMovies.JSONParser
                     Name = (string)jObj["name"]["common"]
                 };
 
-                dbContext.Countries.Add(country);
+                dbContext.Countries.AddOrUpdate(c => c.Name, country);
                 
             }
 

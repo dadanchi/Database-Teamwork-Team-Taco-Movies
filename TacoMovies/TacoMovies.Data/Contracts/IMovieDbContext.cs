@@ -18,5 +18,7 @@ namespace TacoMovies.Data.Contracts
         IDbSet<Country> Countries { get; set; }
 
         int SaveChanges();
+
+        void Dispose();
     }
 }

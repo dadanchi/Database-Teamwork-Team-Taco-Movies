@@ -277,3 +277,5 @@ C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\Taco
 C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\obj\Debug\TacoMovies.ConsoleClient.csprojResolveAssemblyReference.cache
 C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ReportService.dll
 C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ReportService.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ReportService.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.ConsoleClient\bin\Debug\TacoMovies.ReportService.pdb

@@ -40,3 +40,4 @@ C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\Taco
 C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache
 C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.dll
 C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Models\obj\Debug\TacoMovies.Models.csprojResolveAssemblyReference.cache

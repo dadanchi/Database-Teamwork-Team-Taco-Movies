@@ -19,7 +19,7 @@ namespace TacoMovies.Framework.Commands
         private readonly IUtils utils;
         private readonly IAuthProvider authProvider;
 
-        public AddAwardsCommand(IMovieDbContext dbContext, IUtils utils, IAuthProvider authProvider)
+        public AddAwardsCommand(IMovieDbContext dbContext, IAuthProvider authProvider, IUtils utils)
         {
             this.dbContext = dbContext;
             this.utils = utils;
