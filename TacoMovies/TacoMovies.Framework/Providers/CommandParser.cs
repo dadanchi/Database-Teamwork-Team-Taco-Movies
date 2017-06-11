@@ -50,8 +50,42 @@ namespace TacoMovies.Framework.Providers
                     {
                         return ParseUpdateArtistInfo();
                     }
+                case "search movie by artist":
+                    {
+                        return ParseSearchMovieByArtist();
+                    }
+                case "search actors by movie":
+                    {
+                        return ParseSearchActorsByMovie();
+                    }
                 default: return null;
             }
+        }
+
+        private IList<string> ParseSearchActorsByMovie()
+        {
+            var movieName = new List<string>();
+
+            this.writer.WriteLine("Enter movie's name : ");
+            var movie = this.reader.Read();
+            movieName.Add(movie);
+
+            return movieName;
+        }
+
+        private IList<string> ParseSearchMovieByArtist()
+        {
+            var artistNames = new List<string>();
+
+            this.writer.WriteLine("Enter artist's first name : ");
+            var firstName = this.reader.Read();
+            artistNames.Add(firstName);
+
+            this.writer.WriteLine("Enter artist's last name : ");
+            var lastName = this.reader.Read();
+            artistNames.Add(lastName);
+
+            return artistNames;
         }
 
         private IList<string> ParseUpdateArtistInfo()

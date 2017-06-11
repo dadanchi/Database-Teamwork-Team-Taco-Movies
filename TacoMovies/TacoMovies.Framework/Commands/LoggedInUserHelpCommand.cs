@@ -1,24 +1,27 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using TacoMovies.Contracts;
 
 namespace TacoMovies.Framework.Commands
 {
-    public class HelpCommand : ICommand
+    public class LoggedInUserHelpCommand : ICommand
     {
         private readonly string[] AvailableCommands;
 
-        public HelpCommand()
+        public LoggedInUserHelpCommand()
         {
             this.AvailableCommands = new[]
             {
-                "Register",
-                "Login",
-                "Logout",
-                "Add movie",
-               "search movie by actors",
-               "search actors by movie"
-                //"List movies" - add it
+                "add artist (admin only)",
+                "add award (admin only)",
+                "add movie",
+                "create movie (admin only)",
+               "update artist info (admin only)",
+               "search actors by movie",
+               "search movies by actor"
             };
         }
 
@@ -40,3 +43,4 @@ namespace TacoMovies.Framework.Commands
         }
     }
 }
+

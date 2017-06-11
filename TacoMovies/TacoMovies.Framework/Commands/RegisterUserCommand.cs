@@ -42,7 +42,7 @@ namespace TacoMovies.Framework.Commands
 
             this.authProvider.CurrentUsername = newUser.Username;
 
-            return $"{newUser.Username} has successfully registered! You are now logged in.";
+            return $"{newUser.Username} has successfully registered! You are now logged in.\n Type a command or 'help logged user' for help to see your options.";
         }
     }
 }

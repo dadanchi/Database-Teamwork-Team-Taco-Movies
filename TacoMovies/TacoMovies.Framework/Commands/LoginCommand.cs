@@ -28,7 +28,7 @@ namespace TacoMovies.Framework.Commands
 
             this.authProvider.LogInUser(username, password);
 
-            return $"{username} has successfully logged in!";
+            return $"{username} has successfully logged in!\n Type a command or 'help logged user' for help to see your options.";
         }
     }
 }

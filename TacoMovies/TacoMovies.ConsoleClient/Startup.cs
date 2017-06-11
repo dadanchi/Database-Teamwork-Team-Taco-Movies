@@ -37,6 +37,17 @@ namespace TacoMovies.ConsoleClient
             var engine = kernel.Get<IEngine>();
             engine.Start();
 
+            //var actorsInMovie = dbContext.Movies
+            //                 .Where(m => m.Name == "Inception")
+            //                 .SelectMany(m => m.Actors)
+            //                 .ToList();
+
+            //foreach (var actor in actorsInMovie)
+            //{
+            //    Console.WriteLine(actor.FirstName);
+            //}
+
+
             //var user = dbContext.Users
             //                  .Where(n => n.Username == "Pesho")
             //                  .First();
@@ -45,7 +56,7 @@ namespace TacoMovies.ConsoleClient
             //{
             //    Console.WriteLine(item.Name);
             //}
-            
+
 
 
 

@@ -54,9 +54,12 @@
     <Compile Include="Commands\AddAwardsCommand.cs" />
     <Compile Include="Commands\CreateMovieCommand.cs" />
     <Compile Include="Commands\HelpCommand.cs" />
+    <Compile Include="Commands\LoggedInUserHelpCommand.cs" />
     <Compile Include="Commands\LoginCommand.cs" />
     <Compile Include="Commands\LogOutCommand.cs" />
     <Compile Include="Commands\RegisterUserCommand.cs" />
+    <Compile Include="Commands\SearchActorsByMovieCommand.cs" />
+    <Compile Include="Commands\SearchMovieByArtistCommand.cs" />
     <Compile Include="Commands\UpdateArtistInfoCommand.cs" />
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Factories\CommandFactory.cs" />

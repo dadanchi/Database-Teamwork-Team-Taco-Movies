@@ -20,8 +20,11 @@ namespace TacoMovies.Framework.Factories
                 case "add movie": return new AddUserMoviesCommand(dbContext, authProvider);
                 case "logout": return new LogOutCommand(dbContext, authProvider);
                 case "help": return new HelpCommand();
+                case "help logged user": return new LoggedInUserHelpCommand();
                 case "add award": return new AddAwardsCommand(dbContext, authProvider, utils);
                 case "update artist info": return new UpdateArtistInfoCommand(dbContext, authProvider, utils);
+                case "search movie by artist": return new SearchMovieByArtistCommand(dbContext);
+                case "search actors by movie": return new SearchActorsByMovieCommand(dbContext);
                 default: throw new Exception("There is no such command, enter Help to see all available commands");
             }
         }
