@@ -15,6 +15,7 @@ using TacoMovies.Framework.Providers;
 using TacoMovies.JSONParser;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
+using TacoMovies.ReportService;
 
 namespace TacoMovies.ConsoleClient
 {
@@ -24,8 +25,9 @@ namespace TacoMovies.ConsoleClient
         {
             var dbContext = new MoviesDbContext();
 
-            StartDemoUseSqlite();
-            StartDemoUsePostgre();
+            // StartDemoUseSqlite();
+            // StartDemoUsePostgre();
+            // StartDemoReportService();
 
             //var parser = new MasterParser(dbContext);
             //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
@@ -58,6 +60,12 @@ namespace TacoMovies.ConsoleClient
 
         }
 
+        private static void StartDemoReportService()
+        {
+            var reportService = new ReportServiceProvider("../../../ExternalData/Reports/TacoActorsReport.pdf");
+            reportService.Start();
+        }
+
         private static void StartDemoUsePostgre()
         {
             var dbContext = new Data.Postgre.MoviesDbContext();
@@ -73,13 +81,14 @@ namespace TacoMovies.ConsoleClient
                 .Where(c => c.Name == "Bulgaria")
                 .Select(x => x.Name)
                 .ToList();
-           // Console.WriteLine(string.Join(",", result));
+
+            Console.WriteLine(string.Join(",", result));
         }
 
         private static void StartDemoUseSqlite()
         {
-            //Console.WriteLine("Starting Demo SQLite: ");
-            //Console.WriteLine(string.Empty);
+            Console.WriteLine("Starting Demo SQLite: ");
+            Console.WriteLine(string.Empty);
 
             using (var context = new CommandDbContext("CommandsSQLiteDB"))
             {
@@ -97,10 +106,10 @@ namespace TacoMovies.ConsoleClient
 
                 context.SaveChanges();*/
 
-                //foreach (var cmd in context.Set<Command>())
-                //{
-                //    Console.WriteLine(cmd.Id + "---" + cmd.Text);
-                //}
+                foreach (var cmd in context.Set<Command>())
+                {
+                    Console.WriteLine(cmd.Id + "---" + cmd.Text);
+                }
             }
         }
     }

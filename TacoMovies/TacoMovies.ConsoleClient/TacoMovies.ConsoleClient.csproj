@@ -128,6 +128,10 @@
       <Project>{E642CDA7-CF5B-47E3-9E6E-F8B8701992B8}</Project>
       <Name>TacoMovies.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TacoMovies.ReportService\TacoMovies.ReportService.csproj">
+      <Project>{cdc5ee8f-eaac-41de-a071-3e64e4293796}</Project>
+      <Name>TacoMovies.ReportService</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
