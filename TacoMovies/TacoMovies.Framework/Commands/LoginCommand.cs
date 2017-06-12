@@ -26,7 +26,7 @@ namespace TacoMovies.Framework.Commands
             var username = parameters[0];
             var password = parameters[1];
 
-            this.authProvider.LogInUser(username, password);
+            this.authProvider.LogInUser(username, password);                                        
 
             return $"{username} has successfully logged in!\n Type a command or 'help logged user' for help to see your options.";
         }

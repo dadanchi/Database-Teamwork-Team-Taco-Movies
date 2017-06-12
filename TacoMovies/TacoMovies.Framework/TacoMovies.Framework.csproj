@@ -59,6 +59,7 @@
     <Compile Include="Commands\ListMyMoviesCommand.cs" />
     <Compile Include="Commands\LoginCommand.cs" />
     <Compile Include="Commands\LogOutCommand.cs" />
+    <Compile Include="Commands\RechargeAccountAmount.cs" />
     <Compile Include="Commands\RegisterUserCommand.cs" />
     <Compile Include="Commands\SearchActorsByMovieCommand.cs" />
     <Compile Include="Commands\SearchMovieByArtistCommand.cs" />

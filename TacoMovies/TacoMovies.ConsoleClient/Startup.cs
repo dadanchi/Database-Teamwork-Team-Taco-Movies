@@ -26,7 +26,7 @@ namespace TacoMovies.ConsoleClient
             var dbContext = new MoviesDbContext();
             var postgre = new TacoMovies.Data.Postgre.MoviesDbContext();
 
-            // StartDemoUseSqlite();
+            //StartDemoUseSqlite();
             // StartDemoUsePostgre();
             // StartDemoReportService();
             StartDemoExtendedConsole();
@@ -38,9 +38,17 @@ namespace TacoMovies.ConsoleClient
 
             var engine = kernel.Get<IEngine>();
             engine.Start();
-            var user = dbContext.Users.Where(x => x.Username == "ivan").First();
 
-            user.Account.Ammount = 8;
+            //var user = new User
+            //{
+            //    Username = "admin",
+            //    Password = "123456",
+            //    FirstName = "Taina",
+            //    LastName = "Maina",
+            //    Authorization = Models.Enums.Authorization.Admin
+            //};
+
+            //dbContext.Users.Add(user);
             //dbContext.SaveChanges();
 
 

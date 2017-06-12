@@ -59,8 +59,27 @@ namespace TacoMovies.Framework.Providers
                     {
                         return ParseSearchActorsByMovie();
                     }
+                case "recharge account":
+                    {
+                        return ParseRechargeMyAccountAmount();
+                    }
                 default: return null;
             }
+        }
+
+        private IList<string> ParseRechargeMyAccountAmount()
+        {
+            var rechargeData = new List<string>();
+
+            this.writer.WriteLine("Enter required amount : ");
+            var amount = this.reader.Read();
+            rechargeData.Add(amount);
+
+            this.writer.WriteLine("Enter username whose account to recharge : ");
+            var username = this.reader.Read();
+            rechargeData.Add(username);
+
+            return rechargeData;
         }
 
         private IList<string> ParseSearchActorsByMovie()

@@ -26,6 +26,7 @@ namespace TacoMovies.Framework.Factories
                 case "search actors by movie": return new SearchActorsByMovieCommand(dbContext);
                 case "list my movies": return new ListMyMoviesCommand(dbContext, authProvider);
                 case "list all artists": return new ListAllArtists(dbContext, authProvider);
+                case "recharge account": return new RechargeAccountAmount(dbContext, authProvider);
                 default: throw new Exception("There is no such command, enter Help to see all available commands");
             }
         }
