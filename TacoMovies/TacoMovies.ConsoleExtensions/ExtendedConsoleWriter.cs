@@ -41,14 +41,19 @@ namespace TacoMovies.ConsoleExtensions
             Console.Write(message, color);
             using (var progress = new ProgressBar())
             {
-                for (int i = 0; i <= 50; i++)
+                for (int i = 0; i <= 25; i++)
                 {
-                    progress.Report((double)i / 50);
-                    Thread.Sleep(20);
+                    progress.Report((double)i / 25);
+                    Thread.Sleep(10);
                 }
             }
 
             Console.WriteLine("Done.");
+        }
+
+        public void WriteColor(string message, Color color)
+        {
+            Console.WriteLine(message, color);
         }
     }
 }

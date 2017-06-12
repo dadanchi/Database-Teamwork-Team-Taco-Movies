@@ -27,7 +27,7 @@ namespace TacoMovies.Framework.Commands
         {
             var actors = this.dbContext.Artists
                 .Join(this.dbContext.Countries, a => a.Id, c => c.Id,
-                (a, c) => new { Actor = a.FirstName + " " + a.LastName,
+                (a, c) => new { Artist = a.FirstName + " " + a.LastName,
                     a.DateOfBirth,
                     a.Profession,
                     Country = c.Name });

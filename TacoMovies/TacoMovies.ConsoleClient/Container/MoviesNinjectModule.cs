@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TacoMovies.ConsoleExtensions;
+using TacoMovies.ConsoleExtensions.Contracts;
 using TacoMovies.Contracts;
 using TacoMovies.Data;
 using TacoMovies.Data.Contracts;
@@ -24,6 +26,7 @@ namespace TacoMovies.ConsoleClient.Container
             this.Bind<ICommandFactory>().To<CommandFactory>();
             this.Bind<IParser>().To<CommandParser>();
             this.Bind<IWriter>().To<ConsoleWriter>();
+            this.Bind<IExtendedConsoleWriter>().To<ExtendedConsoleWriter>();
             this.Bind<IReader>().To<ConsoleReader>();
             this.Bind<IMovieDbContext>().To<MoviesDbContext>().InSingletonScope();
             this.Bind<IConfigurationProvider>().To<ConfigurationProvider>();

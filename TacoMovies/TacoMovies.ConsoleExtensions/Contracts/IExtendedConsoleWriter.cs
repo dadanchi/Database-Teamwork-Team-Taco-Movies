@@ -7,5 +7,6 @@ namespace TacoMovies.ConsoleExtensions.Contracts
     {
         void WriteAscii(string message, Color color);
         void WriteProgress(string message, Color color);
+        void WriteColor(string message, Color color);
     }
 }
