@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
+using TacoMovies.Framework.Helpers;
 
 namespace TacoMovies.Framework.Providers
 {
@@ -155,9 +156,9 @@ namespace TacoMovies.Framework.Providers
             userData.Add(username);
 
             this.writer.WriteLine("Enter a password : ");
-            var password = this.reader.Read();
-            Validator.ValidateUsernameOrPassword(password, this.writer);
-            userData.Add(password);
+            var encryptedPassword = PasswordEncrypter.GetConsolePassword(writer);
+            Validator.ValidateUsernameOrPassword(encryptedPassword, this.writer);
+            userData.Add(encryptedPassword);
 
             return userData;
         }
@@ -176,13 +177,13 @@ namespace TacoMovies.Framework.Providers
             userData.Add(username);
 
             this.writer.WriteLine("Enter a password : ");
-            var password = this.reader.Read();
-            while (!Validator.ValidateUsernameOrPassword(password, this.writer))
+            var encryptedPassword = PasswordEncrypter.GetConsolePassword(writer);
+            while (!Validator.ValidateUsernameOrPassword(encryptedPassword, this.writer))
             {
-                password = this.reader.Read();
+                encryptedPassword = this.reader.Read();
             }
 
-            userData.Add(password);
+            userData.Add(encryptedPassword);
 
             this.writer.WriteLine("Enter a first name : ");
             var firstName = this.reader.Read();

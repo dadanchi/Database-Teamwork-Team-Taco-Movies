@@ -1,8 +1,5 @@
-﻿using JSONParser;
-using Ninject;
+﻿using Ninject;
 using System;
-using System.Data.Entity.Migrations;
-using System.Globalization;
 using System.Drawing;
 using System.Linq;
 using TacoMovies.ConsoleClient.Container;
@@ -11,13 +8,13 @@ using TacoMovies.Contracts;
 using TacoMovies.Data;
 using TacoMovies.Data.SQLite;
 using TacoMovies.Data.SQLite.Entity;
-using TacoMovies.Framework.Core;
-using TacoMovies.Framework.Factories;
 using TacoMovies.Framework.Providers;
-using TacoMovies.JSONParser;
 using TacoMovies.Models;
-using TacoMovies.Models.Enums;
 using TacoMovies.ReportService;
+using System.Security;
+using System.Diagnostics;
+using System.ComponentModel;
+using System.Text;
 
 namespace TacoMovies.ConsoleClient
 {
@@ -31,7 +28,7 @@ namespace TacoMovies.ConsoleClient
             // StartDemoUseSqlite();
             // StartDemoUsePostgre();
             // StartDemoReportService();
-            StartDemoExtendedConsole();
+             StartDemoExtendedConsole();
 
             //var parser = new MasterParser(dbContext);
             //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
@@ -41,6 +38,7 @@ namespace TacoMovies.ConsoleClient
             var engine = kernel.Get<IEngine>();
             engine.Start();
 
+            var user = dbContext.Users.Where(x => x.Username == "stamatt").First();
 
             //var account = new Account
             //{
@@ -50,23 +48,11 @@ namespace TacoMovies.ConsoleClient
             //};
 
             //postgre.Users.Add(user);
-           // postgre.Account.Add(account);
-           // dbContext.Account.Add(account);
+            // postgre.Account.Add(account);
+            // dbContext.Account.Add(account);
 
-               // postgre.SaveChanges();
-              // dbContext.SaveChanges();
-
-
-
-
-
-
-
-
-
-
-
-
+            // postgre.SaveChanges();
+            // dbContext.SaveChanges();
 
 
         }
@@ -78,8 +64,8 @@ namespace TacoMovies.ConsoleClient
             extendedWriter.WriteAscii("Taco Movies", Color.Crimson);
             extendedWriter.WriteProgress("Query from DB ...", Color.Aqua);
 
-            extendedWriter.WriteLine("Movies blah, blah");
-            extendedWriter.WriteLine("ddd");
+            //extendedWriter.WriteLine("Movies blah, blah");
+            //extendedWriter.WriteLine("ddd");
         }
 
         private static void StartDemoReportService()
@@ -134,5 +120,9 @@ namespace TacoMovies.ConsoleClient
                 }
             }
         }
+
+
+        
+
     }
 }
