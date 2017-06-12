@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
+using TacoMovies.Framework.Helpers;
 using TacoMovies.Models;
 using TacoMovies.Models.Enums;
 
@@ -27,13 +28,16 @@ namespace TacoMovies.Framework.Commands
             var firstName = parameters[2];
             var lastName = parameters[3];
 
+            var account = AccountCreator.CreateAccount();
+
             var newUser = new User()
             {
                 Username = username,
                 Password = password,
                 FirstName = firstName,
                 LastName = lastName,
-                Authorization = Authorization.NormalUser
+                Authorization = Authorization.NormalUser,
+                Account = account
             };
 
             this.dbContext.Users.Add(newUser);

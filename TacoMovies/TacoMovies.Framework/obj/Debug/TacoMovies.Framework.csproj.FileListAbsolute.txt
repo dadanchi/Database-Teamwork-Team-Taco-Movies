@@ -186,3 +186,28 @@ C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMo
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.ConsoleExtensions.dll
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\Colorful.Console.dll
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.ConsoleExtensions.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Framework.dll.config
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Framework.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Framework.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\EntityFramework.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\EntityFramework.SqlServer.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\JSONParser.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.ConsoleExtensions.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Contracts.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Data.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Models.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\Newtonsoft.Json.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\Colorful.Console.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\JSONParser.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.ConsoleExtensions.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Contracts.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Data.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Models.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\EntityFramework.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\EntityFramework.SqlServer.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\Newtonsoft.Json.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.csprojResolveAssemblyReference.cache
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Data.Postgre.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Data.Postgre.pdb

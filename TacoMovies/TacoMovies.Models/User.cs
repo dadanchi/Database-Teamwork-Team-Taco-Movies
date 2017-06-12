@@ -8,12 +8,10 @@ namespace TacoMovies.Models
     public class User
     {
         private ICollection<Movie> movies;
-        private ICollection<Account> accounts;
 
         public User()
         {
             this.movies = new HashSet<Movie>();
-            this.accounts = new HashSet<Account>();
         }
 
         public int Id { get; set; }
@@ -21,7 +19,7 @@ namespace TacoMovies.Models
         [MaxLength(20), MinLength(4)]
         [Column(TypeName = "VARCHAR")]
         public string Username { get; set; }
-        
+
         [MaxLength(20), MinLength(4)]
         [Column(TypeName = "VARCHAR")]
         public string Password { get; set; }
@@ -31,6 +29,8 @@ namespace TacoMovies.Models
         public string LastName { get; set; }
 
         public Authorization Authorization { get; set; }
+
+        public virtual Account Account { get; set; }
 
         public virtual ICollection<Movie> Movies
         {
@@ -45,17 +45,7 @@ namespace TacoMovies.Models
             }
         }
 
-        public virtual ICollection<Account> Accounts
-        {
-            get
-            {
-                return this.accounts;
-            }
 
-            set
-            {
-                this.accounts = value;
-            }
-        }
+
     }
 }

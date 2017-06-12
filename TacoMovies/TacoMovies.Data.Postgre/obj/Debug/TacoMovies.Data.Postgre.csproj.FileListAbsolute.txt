@@ -209,3 +209,33 @@ C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMo
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.csproj.GenerateResource.Cache
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.dll
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\TacoMovies.Data.Postgre.dll.config
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\TacoMovies.Data.Postgre.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\TacoMovies.Data.Postgre.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\EntityFramework.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\EntityFramework.SqlServer.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\EntityFramework6.Npgsql.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\Npgsql.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\System.Data.SQLite.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\System.Data.SQLite.EF6.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\System.Data.SQLite.Linq.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\System.Threading.Tasks.Extensions.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\TacoMovies.Models.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\TacoMovies.Models.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\EntityFramework.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\EntityFramework.SqlServer.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\EntityFramework6.Npgsql.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\Npgsql.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\System.Data.SQLite.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\bin\Debug\System.Threading.Tasks.Extensions.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.csprojResolveAssemblyReference.cache
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.Initial.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.addaccounttable.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.addaccountstouser.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.adjustaccountNumberrange.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.adjustaccounts.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.addamount.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.adjust.resources
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.csproj.GenerateResource.Cache
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.pdb

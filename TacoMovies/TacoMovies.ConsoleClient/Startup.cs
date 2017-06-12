@@ -39,22 +39,6 @@ namespace TacoMovies.ConsoleClient
             var engine = kernel.Get<IEngine>();
             engine.Start();
 
-            var user = dbContext.Users.Where(x => x.Username == "stamatt").First();
-
-            //var account = new Account
-            //{
-            //    AccountNumber = "uk123456",
-            //    User = user,
-            //    Ammount = 100
-            //};
-
-            //postgre.Users.Add(user);
-            // postgre.Account.Add(account);
-            // dbContext.Account.Add(account);
-
-            // postgre.SaveChanges();
-            // dbContext.SaveChanges();
-
 
         }
 

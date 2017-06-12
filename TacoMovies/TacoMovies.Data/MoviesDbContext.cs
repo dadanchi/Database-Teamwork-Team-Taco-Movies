@@ -29,8 +29,6 @@ namespace TacoMovies.Data
 
         public virtual IDbSet<Country> Countries { get; set; }
 
-        public virtual IDbSet<Account> Account { get; set; }
-
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
@@ -41,24 +39,10 @@ namespace TacoMovies.Data
             this.OnGenreModelCreating(modelBuilder);
             this.OnCountryModelCreating(modelBuilder);
             this.OnArtistModelCreating(modelBuilder);
-            this.OnAccountModelCreating(modelBuilder);
 
             base.OnModelCreating(modelBuilder);
         }
 
-        private void OnAccountModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Account>()
-                .Property(x => x.AccountNumber)
-                .IsRequired()
-                .HasColumnAnnotation(
-                    "Index",
-                    new IndexAnnotation(
-                        new IndexAttribute("IX_AccountNumber")
-                        {
-                            IsUnique = true
-                        }));
-        }
 
         private void OnArtistModelCreating(DbModelBuilder modelBuilder)
         {

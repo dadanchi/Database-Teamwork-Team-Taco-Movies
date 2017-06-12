@@ -105,3 +105,18 @@ C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMo
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\obj\Debug\TacoMovies.Data.SQLite.csprojResolveAssemblyReference.cache
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\obj\Debug\TacoMovies.Data.SQLite.dll
 C:\Users\Acer\Desktop\Final\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\obj\Debug\TacoMovies.Data.SQLite.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\TacoMovies.Data.SQLite.dll.config
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\TacoMovies.Data.SQLite.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\TacoMovies.Data.SQLite.pdb
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\EntityFramework.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\EntityFramework.SqlServer.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\SQLite.CodeFirst.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\System.Data.SQLite.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\System.Data.SQLite.EF6.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\System.Data.SQLite.Linq.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\EntityFramework.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\EntityFramework.SqlServer.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\bin\Debug\System.Data.SQLite.xml
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\obj\Debug\TacoMovies.Data.SQLite.csprojResolveAssemblyReference.cache
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\obj\Debug\TacoMovies.Data.SQLite.dll
+H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.SQLite\obj\Debug\TacoMovies.Data.SQLite.pdb
