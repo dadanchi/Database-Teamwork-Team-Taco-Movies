@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.Data.SQLite", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.ReportService", "TacoMovies.ReportService\TacoMovies.ReportService.csproj", "{CDC5EE8F-EAAC-41DE-A071-3E64E4293796}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TacoMovies.ConsoleExtensions", "TacoMovies.ConsoleExtensions\TacoMovies.ConsoleExtensions.csproj", "{2B3423A0-43E5-4993-A2FC-FC8ED789EC6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{CDC5EE8F-EAAC-41DE-A071-3E64E4293796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDC5EE8F-EAAC-41DE-A071-3E64E4293796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDC5EE8F-EAAC-41DE-A071-3E64E4293796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3423A0-43E5-4993-A2FC-FC8ED789EC6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3423A0-43E5-4993-A2FC-FC8ED789EC6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3423A0-43E5-4993-A2FC-FC8ED789EC6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3423A0-43E5-4993-A2FC-FC8ED789EC6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

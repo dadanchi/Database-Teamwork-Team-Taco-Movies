@@ -5,6 +5,7 @@ using System.Data.Entity.Migrations;
 using System.Globalization;
 using System.Linq;
 using TacoMovies.ConsoleClient.Container;
+using TacoMovies.ConsoleExtensions;
 using TacoMovies.Contracts;
 using TacoMovies.Data;
 using TacoMovies.Data.SQLite;
@@ -29,6 +30,7 @@ namespace TacoMovies.ConsoleClient
             // StartDemoUseSqlite();
             // StartDemoUsePostgre();
             // StartDemoReportService();
+            StartDemoExtendedConsole();
 
             //var parser = new MasterParser(dbContext);
             //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
@@ -66,6 +68,17 @@ namespace TacoMovies.ConsoleClient
 
 
 
+        }
+
+        private static void StartDemoExtendedConsole()
+        {
+            new ConsoleGUI().SetUp();
+            var extendedWriter = new ExtendedConsoleWriter(new ConsoleWriter());
+            extendedWriter.WriteAscii("Taco Movies");
+            extendedWriter.WriteProgress("Query from DB ...");
+
+            extendedWriter.WriteLine("Movies blah, blah");
+            extendedWriter.WriteLine("ddd");
         }
 
         private static void StartDemoReportService()

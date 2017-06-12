@@ -112,3 +112,9 @@ H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovie
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.adjustaccounts.resources
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.addamount.resources
 H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.adjust.resources
+C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.addaccounttable.resources
+C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.addaccountstouser.resources
+C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.adjustaccountNumberrange.resources
+C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.adjustaccounts.resources
+C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.addamount.resources
+C:\Users\Acer\Desktop\Current\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Data.Postgre\obj\Debug\TacoMovies.Data.Postgre.Migrations.adjust.resources

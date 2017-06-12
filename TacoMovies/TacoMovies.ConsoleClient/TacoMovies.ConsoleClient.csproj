@@ -104,6 +104,10 @@
       <Project>{568E8E82-121E-4ED3-A52C-3BE58303EDFA}</Project>
       <Name>TacoMovies.JSONParser</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TacoMovies.ConsoleExtensions\TacoMovies.ConsoleExtensions.csproj">
+      <Project>{2b3423a0-43e5-4993-a2fc-fc8ed789ec6e}</Project>
+      <Name>TacoMovies.ConsoleExtensions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TacoMovies.Contracts\TacoMovies.Contracts.csproj">
       <Project>{BE842FE9-9D12-45DE-B665-60E75DA95029}</Project>
       <Name>TacoMovies.Contracts</Name>
