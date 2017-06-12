@@ -25,6 +25,7 @@ namespace TacoMovies.Framework.Factories
                 case "update artist info": return new UpdateArtistInfoCommand(dbContext, authProvider, utils);
                 case "search movie by artist": return new SearchMovieByArtistCommand(dbContext);
                 case "search actors by movie": return new SearchActorsByMovieCommand(dbContext);
+                case "list my movies": return new ListMyMoviesCommand(dbContext, authProvider);
                 default: throw new Exception("There is no such command, enter Help to see all available commands");
             }
         }

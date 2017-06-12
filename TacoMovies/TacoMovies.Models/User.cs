@@ -8,10 +8,12 @@ namespace TacoMovies.Models
     public class User
     {
         private ICollection<Movie> movies;
+        private ICollection<Account> accounts;
 
         public User()
         {
             this.movies = new HashSet<Movie>();
+            this.accounts = new HashSet<Account>();
         }
 
         public int Id { get; set; }
@@ -30,7 +32,7 @@ namespace TacoMovies.Models
 
         public Authorization Authorization { get; set; }
 
-        public ICollection<Movie> Movies
+        public virtual ICollection<Movie> Movies
         {
             get
             {
@@ -40,6 +42,19 @@ namespace TacoMovies.Models
             set
             {
                 this.movies = value;
+            }
+        }
+
+        public virtual ICollection<Account> Accounts
+        {
+            get
+            {
+                return this.accounts;
+            }
+
+            set
+            {
+                this.accounts = value;
             }
         }
     }

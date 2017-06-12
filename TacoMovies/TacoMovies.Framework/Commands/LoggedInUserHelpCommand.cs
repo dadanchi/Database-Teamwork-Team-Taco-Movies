@@ -19,6 +19,7 @@ namespace TacoMovies.Framework.Commands
                 "add award (admin only)",
                 "add movie",
                 "create movie (admin only)",
+                "list my movies",
                "update artist info (admin only)",
                "search actors by movie",
                "search movies by actor"

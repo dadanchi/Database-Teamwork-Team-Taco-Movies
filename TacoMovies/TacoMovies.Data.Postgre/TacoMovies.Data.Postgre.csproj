@@ -79,6 +79,30 @@
     <Compile Include="Migrations\201706100823585_Initial.Designer.cs">
       <DependentUpon>201706100823585_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706120717172_add-account-table.cs" />
+    <Compile Include="Migrations\201706120717172_add-account-table.Designer.cs">
+      <DependentUpon>201706120717172_add-account-table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706120723214_add-accounts-to-user.cs" />
+    <Compile Include="Migrations\201706120723214_add-accounts-to-user.Designer.cs">
+      <DependentUpon>201706120723214_add-accounts-to-user.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706120742246_adjust-accountNumber-range.cs" />
+    <Compile Include="Migrations\201706120742246_adjust-accountNumber-range.Designer.cs">
+      <DependentUpon>201706120742246_adjust-accountNumber-range.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706120749594_adjust-accounts.cs" />
+    <Compile Include="Migrations\201706120749594_adjust-accounts.Designer.cs">
+      <DependentUpon>201706120749594_adjust-accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706120802478_add amount.cs" />
+    <Compile Include="Migrations\201706120802478_add amount.Designer.cs">
+      <DependentUpon>201706120802478_add amount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706120819069_adjust.cs" />
+    <Compile Include="Migrations\201706120819069_adjust.Designer.cs">
+      <DependentUpon>201706120819069_adjust.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MoviewDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,6 +120,24 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201706100823585_Initial.resx">
       <DependentUpon>201706100823585_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706120717172_add-account-table.resx">
+      <DependentUpon>201706120717172_add-account-table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706120723214_add-accounts-to-user.resx">
+      <DependentUpon>201706120723214_add-accounts-to-user.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706120742246_adjust-accountNumber-range.resx">
+      <DependentUpon>201706120742246_adjust-accountNumber-range.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706120749594_adjust-accounts.resx">
+      <DependentUpon>201706120749594_adjust-accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706120802478_add amount.resx">
+      <DependentUpon>201706120802478_add amount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706120819069_adjust.resx">
+      <DependentUpon>201706120819069_adjust.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -24,6 +24,7 @@ namespace TacoMovies.ConsoleClient
         public static void Main(string[] args)
         {
             var dbContext = new MoviesDbContext();
+            var postgre = new TacoMovies.Data.Postgre.MoviesDbContext();
 
             // StartDemoUseSqlite();
             // StartDemoUsePostgre();
@@ -37,25 +38,21 @@ namespace TacoMovies.ConsoleClient
             var engine = kernel.Get<IEngine>();
             engine.Start();
 
-            //var actorsInMovie = dbContext.Movies
-            //                 .Where(m => m.Name == "Inception")
-            //                 .SelectMany(m => m.Actors)
-            //                 .ToList();
 
-            //foreach (var actor in actorsInMovie)
+            //var account = new Account
             //{
-            //    Console.WriteLine(actor.FirstName);
-            //}
+            //    AccountNumber = "uk123456",
+            //    User = user,
+            //    Ammount = 100
+            //};
 
+            //postgre.Users.Add(user);
+           // postgre.Account.Add(account);
+           // dbContext.Account.Add(account);
 
-            //var user = dbContext.Users
-            //                  .Where(n => n.Username == "Pesho")
-            //                  .First();
+               // postgre.SaveChanges();
+              // dbContext.SaveChanges();
 
-            //foreach (var item in user.Movies)
-            //{
-            //    Console.WriteLine(item.Name);
-            //}
 
 
 
@@ -81,12 +78,12 @@ namespace TacoMovies.ConsoleClient
         {
             var dbContext = new Data.Postgre.MoviesDbContext();
 
-            /*dbContext.Set<Country>().Add(new Country
+            dbContext.Set<Country>().Add(new Country
             {
                 Name = "Bulgaria"
             });
 
-            dbContext.SaveChanges();*/
+            dbContext.SaveChanges();
 
             var result = dbContext.Countries
                 .Where(c => c.Name == "Bulgaria")
@@ -103,7 +100,7 @@ namespace TacoMovies.ConsoleClient
 
             using (var context = new CommandDbContext("CommandsSQLiteDB"))
             {
-                /*context.Set<Command>().Add(new Command
+                context.Set<Command>().Add(new Command
                 {
                     ExecutionTime = DateTime.Now,
                     Text = "Add movie 1"
@@ -115,7 +112,7 @@ namespace TacoMovies.ConsoleClient
                     Text = "Add movie 2"
                 });
 
-                context.SaveChanges();*/
+                context.SaveChanges();
 
                 foreach (var cmd in context.Set<Command>())
                 {
