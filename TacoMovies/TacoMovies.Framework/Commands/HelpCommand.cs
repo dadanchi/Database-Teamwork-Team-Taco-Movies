@@ -17,7 +17,8 @@ namespace TacoMovies.Framework.Commands
                 "Logout",
                 "Add movie",
                "search movie by actors",
-               "search actors by movie"
+               "search actors by movie",
+               "list all artists"
                 //"List movies" - add it
             };
         }

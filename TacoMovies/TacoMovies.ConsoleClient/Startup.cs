@@ -15,6 +15,7 @@ using System.Security;
 using System.Diagnostics;
 using System.ComponentModel;
 using System.Text;
+using JSONParser;
 
 namespace TacoMovies.ConsoleClient
 {
@@ -28,11 +29,11 @@ namespace TacoMovies.ConsoleClient
             // StartDemoUseSqlite();
             // StartDemoUsePostgre();
             // StartDemoReportService();
-             StartDemoExtendedConsole();
+            StartDemoExtendedConsole();
 
-            //var parser = new MasterParser(dbContext);
-            //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
-            //"../../../ExternalData/movies.json");
+            // var parser = new MasterParser(dbContext);
+            // parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
+            // "../../../ExternalData/movies.json");
             var kernel = new StandardKernel(new MoviesNinjectModule());
 
             var engine = kernel.Get<IEngine>();
@@ -62,7 +63,7 @@ namespace TacoMovies.ConsoleClient
             new ConsoleGUI().SetUp();
             var extendedWriter = new ExtendedConsoleWriter(new ConsoleWriter());
             extendedWriter.WriteAscii("Taco Movies", Color.Crimson);
-            extendedWriter.WriteProgress("Query from DB ...", Color.Aqua);
+            // extendedWriter.WriteProgress("Query from DB ...", Color.Aqua);
 
             //extendedWriter.WriteLine("Movies blah, blah");
             //extendedWriter.WriteLine("ddd");
