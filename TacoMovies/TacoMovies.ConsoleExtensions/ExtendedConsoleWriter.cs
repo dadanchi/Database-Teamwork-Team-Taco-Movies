@@ -31,14 +31,14 @@ namespace TacoMovies.ConsoleExtensions
             this.writer.WriteLine(message);
         }
 
-        public void WriteAscii(string message)
+        public void WriteAscii(string message, Color color)
         {
-            Console.WriteAscii(message, Color.Crimson);
+            Console.WriteAscii(message, color);
         }
 
-        public void WriteProgress(string message)
+        public void WriteProgress(string message, Color color)
         {
-            Console.Write(message, Color.Aqua);
+            Console.Write(message, color);
             using (var progress = new ProgressBar())
             {
                 for (int i = 0; i <= 50; i++)

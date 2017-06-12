@@ -1,10 +1,11 @@
-﻿using TacoMovies.Contracts;
+﻿using System.Drawing;
+using TacoMovies.Contracts;
 
 namespace TacoMovies.ConsoleExtensions.Contracts
 {
     public interface IExtendedConsoleWriter : IWriter
     {
-        void WriteAscii(string message);
-        void WriteProgress(string message);
+        void WriteAscii(string message, Color color);
+        void WriteProgress(string message, Color color);
     }
 }

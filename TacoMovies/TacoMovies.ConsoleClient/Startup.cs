@@ -3,6 +3,7 @@ using Ninject;
 using System;
 using System.Data.Entity.Migrations;
 using System.Globalization;
+using System.Drawing;
 using System.Linq;
 using TacoMovies.ConsoleClient.Container;
 using TacoMovies.ConsoleExtensions;
@@ -74,8 +75,8 @@ namespace TacoMovies.ConsoleClient
         {
             new ConsoleGUI().SetUp();
             var extendedWriter = new ExtendedConsoleWriter(new ConsoleWriter());
-            extendedWriter.WriteAscii("Taco Movies");
-            extendedWriter.WriteProgress("Query from DB ...");
+            extendedWriter.WriteAscii("Taco Movies", Color.Crimson);
+            extendedWriter.WriteProgress("Query from DB ...", Color.Aqua);
 
             extendedWriter.WriteLine("Movies blah, blah");
             extendedWriter.WriteLine("ddd");
