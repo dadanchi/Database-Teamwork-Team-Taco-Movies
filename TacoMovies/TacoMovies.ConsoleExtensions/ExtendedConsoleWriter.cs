@@ -43,7 +43,7 @@ namespace TacoMovies.ConsoleExtensions
             {
                 for (int i = 0; i <= 50; i++)
                 {
-                    progress.Report((double)i / 100);
+                    progress.Report((double)i / 50);
                     Thread.Sleep(20);
                 }
             }
