@@ -211,3 +211,8 @@ H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movie
 H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.pdb
 H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Data.Postgre.dll
 H:\Lazar\Telerik\Databases\TeamWork\pull 22.30\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Data.Postgre.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.ConsoleExtensions.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Data.Postgre.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\Colorful.Console.dll
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.ConsoleExtensions.pdb
+H:\Lazar\Telerik\Databases\TeamWork\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Data.Postgre.pdb

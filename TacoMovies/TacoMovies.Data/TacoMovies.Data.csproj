@@ -100,10 +100,6 @@
     <Compile Include="Migrations\201706091454580_password length and varchar on it.Designer.cs">
       <DependentUpon>201706091454580_password length and varchar on it.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706122009554_remove-user-from-account.cs" />
-    <Compile Include="Migrations\201706122009554_remove-user-from-account.Designer.cs">
-      <DependentUpon>201706122009554_remove-user-from-account.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MoviesDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -130,9 +126,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201706091454580_password length and varchar on it.resx">
       <DependentUpon>201706091454580_password length and varchar on it.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706122009554_remove-user-from-account.resx">
-      <DependentUpon>201706122009554_remove-user-from-account.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

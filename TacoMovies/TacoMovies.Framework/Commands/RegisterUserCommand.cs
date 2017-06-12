@@ -28,17 +28,15 @@ namespace TacoMovies.Framework.Commands
             var firstName = parameters[2];
             var lastName = parameters[3];
 
-            var account = AccountCreator.CreateAccount();
+            var newUser = new User();
 
-            var newUser = new User()
-            {
-                Username = username,
-                Password = password,
-                FirstName = firstName,
-                LastName = lastName,
-                Authorization = Authorization.NormalUser,
-                Account = account
-            };
+            newUser.Username = username;
+            newUser.Password = password;
+            newUser.FirstName = firstName;
+            newUser.LastName = lastName;
+            newUser.Authorization = Authorization.NormalUser;
+            var account = AccountCreator.CreateAccount(newUser);
+            newUser.Account = account;
 
             this.dbContext.Users.Add(newUser);
 

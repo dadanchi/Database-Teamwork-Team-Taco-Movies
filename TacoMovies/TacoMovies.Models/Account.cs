@@ -20,5 +20,9 @@ namespace TacoMovies.Models
         [Required]
         public int Ammount { get; set; }
 
+        [Required]
+        public virtual User User { get; set; }
+
+
     }
 }

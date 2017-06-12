@@ -2,6 +2,7 @@
 using System.Linq;
 using TacoMovies.Contracts;
 using TacoMovies.Data.Contracts;
+using TacoMovies.Models;
 
 namespace TacoMovies.Framework.Providers
 {
@@ -44,7 +45,7 @@ namespace TacoMovies.Framework.Providers
 
             if (movie != null)
             {
-                writer.WriteLine(MovieDoesNotExistMessage);
+                //writer.WriteLine(MovieDoesNotExistMessage);
                 return true;
             }
 
@@ -61,6 +62,14 @@ namespace TacoMovies.Framework.Providers
             if (!authProvider.IsAuthorized())
             {
                 throw new Exception("You don't have authority for this command");
+            }
+        }
+
+        public static void IsUserAmoutEnough(User user, int priceOfOneMovie)
+        {
+            if(user.Account.Ammount < priceOfOneMovie)
+            {
+                throw new Exception("You do not have enough money!");
             }
         }
     }

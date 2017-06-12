@@ -31,13 +31,17 @@ namespace TacoMovies.ConsoleClient
             // StartDemoReportService();
             StartDemoExtendedConsole();
 
-            // var parser = new MasterParser(dbContext);
-            // parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
-            // "../../../ExternalData/movies.json");
+            //var parser = new MasterParser(dbContext);
+            //parser.Parse("../../../ExternalData/Countries.json", "../../../ExternalData/artist.json",
+            //"../../../ExternalData/movies.json");
             var kernel = new StandardKernel(new MoviesNinjectModule());
 
             var engine = kernel.Get<IEngine>();
             engine.Start();
+            var user = dbContext.Users.Where(x => x.Username == "ivan").First();
+
+            user.Account.Ammount = 8;
+            //dbContext.SaveChanges();
 
 
         }

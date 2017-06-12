@@ -30,6 +30,7 @@ namespace TacoMovies.Models
 
         public Authorization Authorization { get; set; }
 
+
         public virtual Account Account { get; set; }
 
         public virtual ICollection<Movie> Movies

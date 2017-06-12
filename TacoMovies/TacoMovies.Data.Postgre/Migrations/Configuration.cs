@@ -9,7 +9,7 @@ namespace TacoMovies.Data.Postgre.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(TacoMovies.Data.Postgre.MoviesDbContext context)

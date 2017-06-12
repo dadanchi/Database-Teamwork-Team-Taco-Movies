@@ -16,12 +16,13 @@ namespace TacoMovies.Framework.Helpers
 
         }
 
-        public static Account CreateAccount()
+        public static Account CreateAccount(User user)
         {
             var account = new Account
             {
                 AccountNumber = RandomStringGenerator.GenerateRandomString(8),
-                Ammount = 100
+                Ammount = 100,
+                User = user
             };
 
             postgre.Account.Add(account);
