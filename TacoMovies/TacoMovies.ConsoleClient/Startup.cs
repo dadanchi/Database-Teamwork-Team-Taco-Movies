@@ -104,10 +104,6 @@ namespace TacoMovies.ConsoleClient
                     Console.WriteLine(cmd.Id + "---" + cmd.Text);
                 }
             }
-        }
-
-
-        
-
+        }     
     }
 }

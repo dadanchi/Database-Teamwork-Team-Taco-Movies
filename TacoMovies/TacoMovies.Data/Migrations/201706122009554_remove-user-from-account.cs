@@ -3,16 +3,16 @@ namespace TacoMovies.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class accoutsusersadjustment : DbMigration
+    public partial class removeuserfromaccount : DbMigration
     {
         public override void Up()
         {
-            AddColumn("dbo.Accounts", "Ammount", c => c.Int(nullable: false));
+            CreateIndex("dbo.Accounts", "AccountNumber", unique: true);
         }
         
         public override void Down()
         {
-            DropColumn("dbo.Accounts", "Ammount");
+            DropIndex("dbo.Accounts", new[] { "AccountNumber" });
         }
     }
 }

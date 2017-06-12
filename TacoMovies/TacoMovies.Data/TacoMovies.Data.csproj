@@ -100,29 +100,9 @@
     <Compile Include="Migrations\201706091454580_password length and varchar on it.Designer.cs">
       <DependentUpon>201706091454580_password length and varchar on it.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706120715518_create Accounts Table.cs" />
-    <Compile Include="Migrations\201706120715518_create Accounts Table.Designer.cs">
-      <DependentUpon>201706120715518_create Accounts Table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706120723488_add-accounts-to-user.cs" />
-    <Compile Include="Migrations\201706120723488_add-accounts-to-user.Designer.cs">
-      <DependentUpon>201706120723488_add-accounts-to-user.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706120741512_adjust-accountNumber-range.cs" />
-    <Compile Include="Migrations\201706120741512_adjust-accountNumber-range.Designer.cs">
-      <DependentUpon>201706120741512_adjust-accountNumber-range.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706120750238_adhust-accounts.cs" />
-    <Compile Include="Migrations\201706120750238_adhust-accounts.Designer.cs">
-      <DependentUpon>201706120750238_adhust-accounts.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706120801159_accouts-users-adjustment.cs" />
-    <Compile Include="Migrations\201706120801159_accouts-users-adjustment.Designer.cs">
-      <DependentUpon>201706120801159_accouts-users-adjustment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706120818427_adjust.cs" />
-    <Compile Include="Migrations\201706120818427_adjust.Designer.cs">
-      <DependentUpon>201706120818427_adjust.cs</DependentUpon>
+    <Compile Include="Migrations\201706122009554_remove-user-from-account.cs" />
+    <Compile Include="Migrations\201706122009554_remove-user-from-account.Designer.cs">
+      <DependentUpon>201706122009554_remove-user-from-account.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MoviesDbContext.cs" />
@@ -151,23 +131,8 @@
     <EmbeddedResource Include="Migrations\201706091454580_password length and varchar on it.resx">
       <DependentUpon>201706091454580_password length and varchar on it.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706120715518_create Accounts Table.resx">
-      <DependentUpon>201706120715518_create Accounts Table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706120723488_add-accounts-to-user.resx">
-      <DependentUpon>201706120723488_add-accounts-to-user.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706120741512_adjust-accountNumber-range.resx">
-      <DependentUpon>201706120741512_adjust-accountNumber-range.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706120750238_adhust-accounts.resx">
-      <DependentUpon>201706120750238_adhust-accounts.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706120801159_accouts-users-adjustment.resx">
-      <DependentUpon>201706120801159_accouts-users-adjustment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706120818427_adjust.resx">
-      <DependentUpon>201706120818427_adjust.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706122009554_remove-user-from-account.resx">
+      <DependentUpon>201706122009554_remove-user-from-account.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

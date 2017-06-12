@@ -20,10 +20,5 @@ namespace TacoMovies.Models
         [Required]
         public int Ammount { get; set; }
 
-        [ForeignKey("UserId")]
-        [Required]
-        public virtual User User { get; set; }
-
-        public int? UserId { get; set; }
     }
 }

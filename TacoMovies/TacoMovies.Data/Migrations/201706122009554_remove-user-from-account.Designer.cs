@@ -7,13 +7,13 @@ namespace TacoMovies.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class adjust : IMigrationMetadata
+    public sealed partial class removeuserfromaccount : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(adjust));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(removeuserfromaccount));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706120818427_adjust"; }
+            get { return "201706122009554_remove-user-from-account"; }
         }
         
         string IMigrationMetadata.Source

@@ -54,7 +54,7 @@ namespace TacoMovies.Framework.Core
                 try
                 {
                     var command = this.commandFactory.GetCommand(commandAsString, this.dbContext, this.authProvider,
-                        this.reader, this.writer, this.utils);
+                    this.reader, this.writer, this.utils);
                     var parameters = this.parser.Parse(commandAsString);
 
                     if (command.GetType().ToString().Contains("List"))
