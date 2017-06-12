@@ -176,3 +176,4 @@ C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSON
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\TacoMovies.JSONParser.csprojResolveAssemblyReference.cache
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.dll
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\obj\Debug\JSONParser.pdb
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\JSONParser\bin\Debug\TacoMovies.Contracts.dll.config

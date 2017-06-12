@@ -162,3 +162,4 @@ C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\Taco
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.csprojResolveAssemblyReference.cache
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.dll
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\obj\Debug\TacoMovies.Framework.pdb
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Framework\bin\Debug\TacoMovies.Contracts.dll.config

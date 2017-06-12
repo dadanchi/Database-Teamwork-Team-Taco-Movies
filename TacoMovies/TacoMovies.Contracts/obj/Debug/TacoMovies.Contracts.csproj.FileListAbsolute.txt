@@ -91,3 +91,4 @@ C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\Taco
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.csprojResolveAssemblyReference.cache
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.dll
 C:\Users\Acer\Desktop\Project\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\obj\Debug\TacoMovies.Contracts.pdb
+C:\Users\Dadanchi\Desktop\taco3\Database-Teamwork-Team-Taco-Movies\TacoMovies\TacoMovies.Contracts\bin\Debug\TacoMovies.Contracts.dll.config

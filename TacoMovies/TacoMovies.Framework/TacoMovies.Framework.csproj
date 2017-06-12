@@ -56,7 +56,6 @@
     <Compile Include="Commands\HelpCommand.cs" />
     <Compile Include="Commands\ListAllArtistsCommand.cs" />
     <Compile Include="Commands\ListMyMoviesCommand.cs" />
-    <Compile Include="Commands\LoggedInUserHelpCommand.cs" />
     <Compile Include="Commands\LoginCommand.cs" />
     <Compile Include="Commands\LogOutCommand.cs" />
     <Compile Include="Commands\RegisterUserCommand.cs" />

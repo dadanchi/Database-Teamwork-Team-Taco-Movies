@@ -32,12 +32,16 @@ namespace TacoMovies.Framework.Providers
 
         public bool IsAuthorized()
         {
-            var authority = this.dbContext.Users
-                .Where(x => x.Username == this.CurrentUsername)
-                .FirstOrDefault()
-                .Authorization;
+            if (this.CurrentUsername == string.Empty)
+            {
+                return false;
+            }
 
-            if (authority == Authorization.NormalUser)
+            var user = this.dbContext.Users
+                .Where(x => x.Username == this.CurrentUsername)
+                .FirstOrDefault();
+
+            if (user.Authorization == Authorization.NormalUser)
             {
                 return false;
             }
